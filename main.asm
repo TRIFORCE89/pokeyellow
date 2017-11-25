@@ -228,7 +228,6 @@ AgathaSprite:         INCBIN "gfx/sprites/agatha.2bpp"
 BrunoSprite:          INCBIN "gfx/sprites/bruno.2bpp"
 LoreleiSprite:        INCBIN "gfx/sprites/lorelei.2bpp"
 SeelSprite:           INCBIN "gfx/sprites/seel.2bpp"
-MistySprite:          INCBIN "gfx/sprites/misty.2bpp"
 
 INCLUDE "engine/battle/moveEffects/substitute_effect.asm"
 INCLUDE "engine/menu/pc.asm"
@@ -2130,6 +2129,15 @@ SurfingPikachu3GraphicsEnd:
 INCLUDE "engine/unknown_ea3ea.asm"
 
 INCLUDE "engine/overworld/npc_movement_2.asm"
+
+SECTION "bank3B",ROMX,BANK[$3B]
+
+BrockSprite:          INCBIN "gfx/sprites/brock.2bpp"
+MistySprite:          INCBIN "gfx/sprites/misty.2bpp"
+LtSurgeSprite:        INCBIN "gfx/sprites/lt.surge.2bpp"
+KogaSprite:           INCBIN "gfx/sprites/koga.2bpp"
+SabrinaSprite:        INCBIN "gfx/sprites/sabrina.2bpp"
+BlaineSprite:         INCBIN "gfx/sprites/blaine.2bpp"
 
 SECTION "bank3C",ROMX,BANK[$3C]
 
