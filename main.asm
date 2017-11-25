@@ -1216,7 +1216,7 @@ Rival1Pic:        INCBIN "pic/ytrainer/rival1.pic"
 ProfOakPic:       INCBIN "pic/ytrainer/prof.oak.pic"
 ChiefPic:
 ScientistPic:     INCBIN "pic/trainer/scientist.pic"
-GiovanniPic:      INCBIN "pic/trainer/giovanni.pic"
+GiovanniPic:      INCBIN "pic/ytrainer/giovanni.pic"
 RocketPic:        INCBIN "pic/trainer/rocket.pic"
 CooltrainerMPic:  INCBIN "pic/trainer/cooltrainerm.pic"
 CooltrainerFPic:  INCBIN "pic/trainer/cooltrainerf.pic"
