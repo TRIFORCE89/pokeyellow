@@ -540,6 +540,11 @@ SpriteSheetPointerTable:
 	db $c0
 	db BANK(JamesSprite)
 
+	; SPRITE_MISTY
+	dw MistySprite
+	db $c0 ; byte count
+	db BANK(MistySprite)
+
 	; SPRITE_BALL
 	dw BallSprite
 	db $40 ; byte count

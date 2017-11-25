@@ -100,6 +100,10 @@ const_value = 1
 	const SPRITE_LYING_OLD_MAN_UNUSED_2    ; $51
 	const SPRITE_LYING_OLD_MAN             ; $52
 
+	; Additional SpriteSets
+	const SPRITE_MISTY                     ; $53
+
+
 ; different kinds of people events
 ITEM    EQU $80
 TRAINER EQU $40
