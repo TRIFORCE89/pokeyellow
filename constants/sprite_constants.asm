@@ -101,7 +101,12 @@ const_value = 1
 	const SPRITE_LYING_OLD_MAN             ; $52
 
 	; Additional SpriteSets
-	const SPRITE_MISTY                     ; $53
+	const SPRITE_BROCK                     ; $53
+	const SPRITE_MISTY                     ; $54
+	const SPRITE_LT_SURGE                  ; $55
+	const SPRITE_KOGA                      ; $56
+	const SPRITE_SABRINA                   ; $57
+	const SPRITE_BLAINE                    ; $58
 
 
 ; different kinds of people events
