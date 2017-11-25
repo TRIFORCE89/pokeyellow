@@ -1150,7 +1150,7 @@ wWhichBadge:: ; cd3d
 wPriceTemp:: ; cd3d
 ; 3-byte BCD number
 
-wTitleScreenScene:: ; cd3d
+wTitleMonSpecies:: ; cd3d
 
 wPlayerCharacterOAMTile:: ; cd3d
 
@@ -2846,7 +2846,7 @@ wExpressionNumber:: ; d447
 	ds 1
 wPikaPicAnimNumber:: ; d448
 	ds 1
-	
+
 wPikachuMovementScriptBank:: ds 1  ; d449
 wPikachuMovementScriptAddress:: dw ; d44a
 wPikachuMovementFlags:: ; d44c
@@ -2909,11 +2909,11 @@ wd475:: ds 1 ; d474
 wd47a:: ds 1 ; d479
 
 	ds 24
-	
+
 wd492:: ds 1 ; d492
-	
+
 	ds 1
-	
+
 wSurfingMinigameHiScore:: ds 2 ; 4-digit BCD little-endian
 	ds 1
 

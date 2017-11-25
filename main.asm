@@ -133,6 +133,7 @@ PokedexTileGraphicsEnd:
 WorldMapTileGraphics:           INCBIN "gfx/town_map.2bpp"
 WorldMapTileGraphicsEnd:
 PlayerCharacterTitleGraphics:   INCBIN "gfx/player_title.2bpp"
+PlayerCharacterTitleGraphicsEnd:
 
 INCLUDE "engine/menu/status_screen.asm"
 INCLUDE "engine/menu/party_menu.asm"
