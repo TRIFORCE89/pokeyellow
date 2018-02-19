@@ -1,0 +1,13 @@
+HideoutMons3:
+	db $0A
+	db 24,CUBONE
+	db 26,EKANS
+	db 26,KOFFING
+	db 26,CUBONE
+	db 24,SANDSHREW
+	db 26,PORYGON
+	db 26,ZUBAT
+	db 28,ELECTRODE
+	db 26,SANDSHREW
+	db 28,SANDSLASH
+	db $00

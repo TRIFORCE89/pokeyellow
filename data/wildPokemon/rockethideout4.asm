@@ -1,0 +1,13 @@
+HideoutMons4:
+	db $0A
+	db 24,EKANS
+	db 26,KOFFING
+	db 26,MEOWTH
+	db 24,CUBONE
+	db 26,ZUBAT
+	db 24,VULPIX
+	db 28,WEEZING
+	db 28,PERSIAN
+	db 24,WIGGLYTUFF
+	db 28,ARBOK
+	db $00

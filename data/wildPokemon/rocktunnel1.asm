@@ -6,7 +6,7 @@ TunnelMonsB1:
 	db 19,ZUBAT
 	db 18,GEODUDE
 	db 20,GEODUDE
-	db 21,ZUBAT
+	db 21,DITTO
 	db 17,MACHOP
 	db 19,MACHOP
 	db 21,MACHOP

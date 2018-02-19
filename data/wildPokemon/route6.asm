@@ -1,10 +1,10 @@
 Route6Mons:
 	db $0F
 	db 15,PIDGEY
-	db 14,RATTATA
+	db 14,MEOWTH
 	db 7,ABRA
 	db 16,PIDGEY
-	db 16,RATTATA
+	db 16,MEOWTH
 	db 17,PIDGEY
 	db 17,PIDGEOTTO
 	db 3,JIGGLYPUFF

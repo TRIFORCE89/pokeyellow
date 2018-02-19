@@ -1,4 +1,4 @@
-Route20Mons:
+CeruleanMons:
 	db $00
 
 	db $05
@@ -12,4 +12,3 @@ Route20Mons:
 	db 40,TENTACOOL
 	db 30,TENTACRUEL
 	db 40,TENTACRUEL
-

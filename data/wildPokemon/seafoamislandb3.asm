@@ -8,7 +8,7 @@ IslandMonsB3:
 	db 26,SEEL
 	db 31,KRABBY
 	db 30,SEEL
-	db 28,DEWGONG
+	db 28,JYNX
 	db 32,DEWGONG
 
 	db $05
@@ -17,9 +17,9 @@ IslandMonsB3:
 	db 20,TENTACOOL
 	db 30,STARYU
 	db 35,TENTACOOL
-	db 30,STARYU
+	db 35,STARYU
 	db 40,TENTACOOL
-	db 30,STARYU
-	db 30,STARYU
-	db 30,STARYU
+	db 40,STARYU
+	db 30,STARMIE
+	db 40,STARMIE
 

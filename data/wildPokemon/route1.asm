@@ -1,14 +1,14 @@
 Route1Mons:
 	db $19
 	db 3,PIDGEY
-	db 4,PIDGEY
+	db 3,POLIWAG
 	db 2,RATTATA
-	db 3,RATTATA
-	db 2,PIDGEY
-	db 3,PIDGEY
+	db 3,MANKEY
+	db 3,SPEAROW
 	db 5,PIDGEY
+	db 3,SANDSHREW
 	db 4,RATTATA
-	db 6,PIDGEY
-	db 7,PIDGEY
+	db 3,DIGLETT
+	db 5,SPEAROW
 	db $00
 

@@ -1,0 +1,14 @@
+GymMons:
+	db $00
+
+	db $05
+	db 20,STARYU
+	db 25,STARYU
+	db 30,STARYU
+	db 20,GOLDEEN
+	db 25,GOLDEEN
+	db 30,GOLDEEN
+	db 20,KRABBY
+	db 25,KRABBY
+	db 30,KRABBY
+	db 40,STARMIE

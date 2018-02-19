@@ -7,8 +7,8 @@ PlateauMons3:
 	db 46,GEODUDE
 	db 41,GRAVELER
 	db 42,MACHOKE
-	db 45,MACHOKE
+	db 45,MACHAMP
 	db 47,GRAVELER
-	db 47,GRAVELER
+	db 47,GOLEM
 	db $00
 

@@ -1,0 +1,14 @@
+CeladonMons:
+	db $00
+
+	db $05
+	db 5,SLOWPOKE
+	db 10,SLOWPOKE
+	db 15,SLOWPOKE
+	db 20,SLOWPOKE
+	db 25,SLOWPOKE
+	db 30,SLOWPOKE
+	db 35,SLOWPOKE
+	db 40,SLOWPOKE
+	db 30,KOFFING
+	db 40,KOFFING

@@ -7,7 +7,7 @@ Route17Mons:
 	db 28,PONYTA
 	db 30,PONYTA
 	db 29,FEAROW
-	db 28,DODUO
+	db 28,ARBOK
 	db 32,PONYTA
 	db 29,DODRIO
 	db $00

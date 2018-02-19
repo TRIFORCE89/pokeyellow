@@ -9,6 +9,6 @@ PlateauMons2:
 	db 45,ONIX
 	db 47,ONIX
 	db 39,MACHOKE
-	db 42,MACHOKE
+	db 42,MACHAMP
 	db $00
 

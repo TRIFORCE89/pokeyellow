@@ -7,7 +7,7 @@ DungeonMonsB1:
 	db 62,RHYDON
 	db 60,DITTO
 	db 56,CHANSEY
-	db 65,DITTO
+	db 65,ALAKAZAM
 	db 55,LICKITUNG
 	db 50,LICKITUNG
 	db $00
