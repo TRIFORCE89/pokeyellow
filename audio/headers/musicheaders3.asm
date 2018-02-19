@@ -40,9 +40,9 @@ Music_GameCorner::
 	dbw CH2, Music_GameCorner_Ch3
 
 Music_IntroBattle::
-	dbw ( $80 | CH0 ), Music_YellowIntro_Ch1
-	dbw CH1, Music_YellowIntro_Ch2
-	dbw CH2, Music_YellowIntro_Ch3
+	dbw ( $80 | CH0 ), Music_IntroBattle_Ch1
+	dbw CH1, Music_IntroBattle_Ch2
+	dbw CH2, Music_IntroBattle_Ch3
 
 ; Power Plant, Unknown Dungeon, Rocket HQ
 Music_Dungeon1::
