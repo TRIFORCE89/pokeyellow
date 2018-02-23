@@ -27,7 +27,7 @@ _SurfinDudeText4::
 	done
 
 _BeachHousePikachuText::
-	text "PIKACHU: Pikaa"
+	text "PUKA: Pikaa"
 	done
 
 _BeachHouseSign1Text1::
