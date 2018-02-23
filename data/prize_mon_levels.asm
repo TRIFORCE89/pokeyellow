@@ -1,8 +1,10 @@
 PrizeMonLevelDictionary:
+	db CLEFAIRY,12
 	db ABRA,15
-	db VULPIX,18
-	db WIGGLYTUFF,22
+	db EEVEE,25
 
-	db SCYTHER,30
-	db PINSIR,30
+	db CUBONE,15
+	db HITMONLEE,20
+	db HITMONCHAN,20
 	db PORYGON,26
+	db DRATINI,24

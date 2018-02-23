@@ -70,7 +70,12 @@ GetPrizeMenuId:
 	add a
 	ld d, 0
 	ld e, a
-	ld hl, PrizeDifferentMenuPtrs
+	CheckEvent EVENT_GOT_HITMONLEE
+		ld hl, PrizeDifferentMenuPtrs_GotHitmonchan
+	CheckEvent EVENT_GOT_HITMONCHAN
+		ld hl, PrizeDifferentMenuPtrs_GotHitmonchan
+	CheckEitherEventSet EVENT_GOT_HITMONLEE, EVENT_GOT_HITMONCHAN
+		ld hl, PrizeDifferentMenuPtrs
 	add hl, de
 	ld a, [hli]
 	ld d, [hl]
