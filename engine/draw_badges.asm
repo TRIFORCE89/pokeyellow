@@ -71,12 +71,20 @@ DrawBadges:
 	and a
 	ld a, [wBadgeNameTile]
 	jr nz, .SkipName
-	call .PlaceTiles
+	call .PlaceTiles2
 	jr .PlaceBadge
 
 .SkipName
 	inc a
 	inc a
+	cp $60 + 5
+	jr z, .ok1
+	cp $60 + 10
+	jr z, .ok1
+	cp $60 + 12
+	jr z, .ok1
+	inc a
+.ok1
 	inc hl
 
 .PlaceBadge
@@ -111,6 +119,23 @@ DrawBadges:
 	inc a
 	ld [hl], a
 	inc a
+	ret
+
+.PlaceTiles2
+	ld [hli], a
+	inc a
+	ld [hl], a
+	inc a
+	cp $60 + 5
+	ret z
+	cp $60 + 10
+	ret z
+	cp $60 + 12
+	ret z
+	inc hl
+	ld [hl], a
+	inc a
+	dec hl
 	ret
 
 .FaceBadgeTiles
