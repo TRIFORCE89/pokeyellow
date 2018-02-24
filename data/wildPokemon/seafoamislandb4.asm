@@ -12,7 +12,6 @@ IslandMonsB4:
 	db 34,DEWGONG
 
 	db $05
-	db 25,TENTACOOL
 	db 30,TENTACOOL
 	db 20,TENTACOOL
 	db 30,STARYU
@@ -22,4 +21,7 @@ IslandMonsB4:
 	db 40,STARYU
 	db 30,STARMIE
 	db 40,STARMIE
-
+	CheckEvent EVENT_GOT_HELIX_FOSSIL
+		db 20,KABUTO
+	CheckEvent EVENT_GOT_DOME_FOSSIL
+		db 20,OMANYTE
