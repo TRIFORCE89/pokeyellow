@@ -171,10 +171,15 @@ StartMenu_Pokemon:
 	ld a, [wcf91]
 	cp PIKACHU ; is this surfing pikachu?
 	jr z, .surfingPikachu
+	cp LAPRAS
+	jr z, .surfingLapras
 	ld a, $1
 	jr .continue
 .surfingPikachu
 	ld a, $2
+	jr .continue
+.surfingLapras
+	ld a, $3
 .continue
 	ld [wd473], a
 	ld a,SURFBOARD

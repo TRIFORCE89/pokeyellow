@@ -1786,6 +1786,8 @@ LoadSurfingPlayerSpriteGraphics2::
 	jr z, LoadSurfingPlayerSpriteGraphics
 	dec a
 	jr z, .asm_0d7c
+	dec a
+	jr z,.loadLaprasSurfingSprite
 .asm_0d75
 	ld a, [wd472]
 	bit 6, a
@@ -1793,6 +1795,10 @@ LoadSurfingPlayerSpriteGraphics2::
 .asm_0d7c
 	ld b, BANK(SurfingPikachuSprite)
 	ld de, SurfingPikachuSprite
+	jr LoadPlayerSpriteGraphicsCommon
+.loadLaprasSurfingSprite
+	ld b, BANK(LaprasSprite)
+	ld de, LaprasSprite
 	jr LoadPlayerSpriteGraphicsCommon
 
 LoadSurfingPlayerSpriteGraphics::
