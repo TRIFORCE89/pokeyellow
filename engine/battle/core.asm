@@ -6580,6 +6580,12 @@ LoadPlayerBackPic:
 	ld de, ProfOakPicBack
 	cp BATTLE_TYPE_PIKACHU ; is it the pikachu battle at the beginning of the game?
 	jr z, .next
+	ld a, [wPlayerGender]
+	bit 2, a
+	jr z, .RedBack
+	ld de, LeafPicBack
+	jr .next
+.RedBack
 	ld de, RedPicBack
 .next
 	ld a, BANK(RedPicBack)

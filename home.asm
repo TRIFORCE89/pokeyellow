@@ -1008,8 +1008,6 @@ UpdateSprites::
 	call BankswitchCommon
 	ret
 
-INCLUDE "data/mart_inventories.asm"
-
 TextScriptEndingChar::
 	db "@"
 TextScriptEnd::

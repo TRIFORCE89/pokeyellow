@@ -173,8 +173,17 @@ PikachuMoods:
 	db $00           ; Unknown (d = 11)
 
 RedPicBack:       INCBIN "pic/trainer/redb.pic"
-OldManPic:	       INCBIN "pic/trainer/oldman.pic"
+LeafPicBack:      INCBIN "pic/ytrainer/leafb.pic"
+OldManPic:	      INCBIN "pic/trainer/oldman.pic"
 ProfOakPicBack:   INCBIN "pic/ytrainer/prof.oakb.pic"
+
+RedFishingTilesFront:  INCBIN "gfx/red_fishing_tile_front.2bpp"
+RedFishingTilesBack:   INCBIN "gfx/red_fishing_tile_back.2bpp"
+RedFishingTilesSide:   INCBIN "gfx/red_fishing_tile_side.2bpp"
+RedFishingRodTiles:    INCBIN "gfx/red_fishingrod_tiles.2bpp"
+LeafFishingTilesFront: INCBIN "gfx/leaf_fishing_tile_front.2bpp"
+LeafFishingTilesBack:  INCBIN "gfx/leaf_fishing_tile_back.2bpp"
+LeafFishingTilesSide:  INCBIN "gfx/leaf_fishing_tile_side.2bpp"
 
 LoadYellowTitleScreenGFX:
 	ld hl, PokemonLogoGraphics

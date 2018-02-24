@@ -197,8 +197,16 @@ HoFMonInfoText:
 	next "TYPE2/@"
 
 HoFLoadPlayerPics:
+	ld a, [wPlayerGender] ; New gender check
+	bit 2, a      ; New gender check
+	jr nz, .GirlStuff1
 	ld de, RedPicFront
 	ld a, BANK(RedPicFront)
+	jr .Routine ; skip the girl stuff and go to main routine
+.GirlStuff1
+	ld de, LeafPicFront
+	ld a, BANK(LeafPicFront)
+.Routine ; resume original routine
 	call UncompressSpriteFromDE
 	ld a,$0
 	call SwitchSRAMBankAndLatchClockData
@@ -209,8 +217,16 @@ HoFLoadPlayerPics:
 	call PrepareRTCDataAndDisableSRAM
 	ld de, vFrontPic
 	call InterlaceMergeSpriteBuffers
+	ld a, [wPlayerGender] ; new gender check
+	bit 2, a      ; new gender check
+	jr nz, .GirlStuff2
 	ld de, RedPicBack
 	ld a, BANK(RedPicBack)
+	jr .routine2 ; skip the girl stuff and continue original routine if guy
+.GirlStuff2
+	ld de, LeafPicBack
+	ld a, BANK(LeafPicBack)
+.routine2 ; original routine
 	call UncompressSpriteFromDE
 	predef ScaleSpriteByTwo
 	ld de, vBackPic
