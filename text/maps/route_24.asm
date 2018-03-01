@@ -64,8 +64,7 @@ _Route24BattleText1::
 	done
 
 _Route24EndBattleText1::
-	text "I"
-	line "thought not!"
+	text "I thought not!"
 	prompt
 
 _Route24AfterBattleText1::
@@ -95,8 +94,7 @@ _Route24BattleText3::
 	done
 
 _Route24EndBattleText3::
-	text "I lost"
-	line "too!"
+	text "I lost too!"
 	prompt
 
 _Route24AfterBattleText3::
@@ -125,8 +123,7 @@ _Route24BattleText5::
 	done
 
 _Route24EndBattleText5::
-	text "How could I"
-	line "lose?"
+	text "How could I lose?"
 	prompt
 
 _Route24AfterBattleText5::

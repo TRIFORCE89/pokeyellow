@@ -19,8 +19,9 @@ _CinnabarIslandText2::
 
 _CinnabarIslandText3::
 	text "CINNABAR ISLAND"
-	line "The Fiery Town of"
-	cont "Burning Desire"
+
+	para "The Fiery Town of"
+	line "Burning Desire"
 	done
 
 _CinnabarIslandText6::

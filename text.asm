@@ -591,7 +591,7 @@ _CinnabarGymQuizShortIntroText::
 
 _CinnabarQuizQuestionsText1::
 	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	line "into METAPOD?"
 	done
 
 _CinnabarQuizQuestionsText2::
@@ -621,7 +621,7 @@ _CinnabarQuizQuestionsText5::
 
 _CinnabarQuizQuestionsText6::
 	text "TM28 contains"
-	line "TOMBSTONER?"
+	line "DESTRUCTION BEAM?"
 	done
 
 _CinnabarGymQuizCorrectText::

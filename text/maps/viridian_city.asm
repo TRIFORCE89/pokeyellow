@@ -9,8 +9,8 @@ _ViridianCityText_1920a::
 	line "coffee now and I"
 	cont "feel great!"
 
-	para "Sure, you can go"
-	line "through!"
+	para "Of course you can"
+	line "go through!"
 
 	para "I'm sorry I was"
 	line "so rude to you!"
@@ -82,7 +82,9 @@ _ViridianCityText_19157::
 _ViridianCityText_19175::
 	text "Oh Grandpa! Don't"
 	line "be so mean!"
-	cont "He hasn't had his"
+
+	para "I'm so sorry."
+	line "He hasn't had his"
 	cont "coffee yet."
 	done
 
@@ -95,8 +97,10 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "You can't go"
-	line "through here!"
+	text "I absolutely"
+	line "forbid you from"
+	cont "going through"
+	cont "here!"
 
 	para "This is private"
 	line "property!"
@@ -153,8 +157,9 @@ _OldManAgainText3::
 
 _ViridianCityText8::
 	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+
+	para "The Eternally"
+	line "Green Paradise"
 	done
 
 _ViridianCityText9::

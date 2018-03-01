@@ -91,8 +91,9 @@ _SaffronCityText15::
 
 _SaffronCityText16::
 	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+
+	para "Shining, Golden"
+	line "Land of Commerce"
 	done
 
 _SaffronCityText17::

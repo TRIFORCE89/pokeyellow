@@ -86,8 +86,7 @@ _Route12BattleText5::
 	done
 
 _Route12EndBattleText5::
-	text "Too"
-	line "much!"
+	text "Too much!"
 	prompt
 
 _Route12AfterBattleText5::
@@ -102,8 +101,7 @@ _Route12BattleText6::
 	done
 
 _Route12EndBattleText6::
-	text "It's"
-	line "not easy..."
+	text "It's not easy..."
 	prompt
 
 _Route12AfterBattleText6::
@@ -119,8 +117,7 @@ _Route12BattleText7::
 	done
 
 _Route12EndBattleText7::
-	text "Lost"
-	line "it!"
+	text "Lost it!"
 	prompt
 
 _Route12AfterBattleText7::
@@ -135,5 +132,6 @@ _Route12Text11::
 	done
 
 _Route12Text12::
-	text "SPORT FISHING AREA"
+	text "SILENCE BRIDGE"
+	line "SPORT FISHING AREA"
 	done

@@ -56,6 +56,11 @@ _Museum1FText_5c251::
 	text "That is one"
 	line "magnificent"
 	cont "fossil!"
+
+	para "Never did I think"
+	line "I would live to"
+	cont "see the bones of"
+	cont "a dragon!"
 	done
 
 _Museum1FText_5c28e::

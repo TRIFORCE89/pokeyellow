@@ -19,8 +19,7 @@ _Route21BattleText2::
 	done
 
 _Route21EndBattleText2::
-	text "Darn"
-	line "MAGIKARP!"
+	text "Darn MAGIKARP!"
 	prompt
 
 _Route21AfterBattleText2::
@@ -48,8 +47,7 @@ _Route21BattleText4::
 	done
 
 _Route21EndBattleText4::
-	text "Cheap"
-	line "shot!"
+	text "Cheap shot!"
 	prompt
 
 _Route21AfterBattleText4::

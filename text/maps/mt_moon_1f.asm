@@ -12,7 +12,8 @@ _MtMoon1EndBattleText2::
 _MtMoon1AfterBattleText2::
 	text "Kids like you"
 	line "shouldn't be"
-	cont "here!"
+	cont "wandering around"
+	cont "in the dark!"
 	done
 
 _MtMoon1BattleText3::
@@ -21,8 +22,8 @@ _MtMoon1BattleText3::
 	done
 
 _MtMoon1EndBattleText3::
-	text "Losing"
-	line "stinks!"
+	text "Losing stinks!"
+	line "It's so uncool!"
 	prompt
 
 _MtMoon1AfterBattleText3::
@@ -85,8 +86,7 @@ _MtMoon1BattleText7::
 	done
 
 _MtMoon1EndBattleText7::
-	text "You"
-	line "got me!"
+	text "You got me!"
 	prompt
 
 _MtMoon1AfterBattleText7::
@@ -102,8 +102,7 @@ _MtMoon1BattleText8::
 	done
 
 _MtMoon1EndBattleText8::
-	text "I"
-	line "lost."
+	text "I lost."
 	prompt
 
 _MtMoon1AfterBattleText8::

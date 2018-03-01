@@ -1,15 +1,21 @@
 _PokemonTowerJessieJamesText1::
-	text "Stop right there!@@"
+	text "JESSIE: Stop right"
+	line "there!@@"
 
 _PokemonTowerJessieJamesText2::
-	text "Grampa here wanted"
-	line "to complain, so"
+	text "JESSIE: Grampa"
+	line "here wanted to"
+	cont "complain, so"
 	cont "we're setting him"
 	cont "straight."
 
-	para "So render yourself"
-	line "invisible, or"
+	para "JAMES: So"
+	line "render yourself"
+	cont "invisible, or"
 	cont "prepare to fight!"
+
+	para "MEOWTH: Meowth!"
+	line "That's right!"
 	done
 
 _PokemonTowerJessieJamesText3::

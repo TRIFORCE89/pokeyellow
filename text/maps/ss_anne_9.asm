@@ -27,9 +27,9 @@ _SSAnne9BattleText1::
 	done
 
 _SSAnne9EndBattleText1::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "Good fight!"
+	line "Ah, I feel young"
+	cont "again!"
 	prompt
 
 _SSAnne9AfterBattleText1::
@@ -43,8 +43,7 @@ _SSAnne9BattleText2::
 	done
 
 _SSAnne9EndBattleText2::
-	text "I'm"
-	line "all out!"
+	text "I'm all out!"
 	prompt
 
 _SSAnne9AfterBattleText2::
@@ -77,8 +76,7 @@ _SSAnne9BattleText4::
 	done
 
 _SSAnne9EndBattleText4::
-	text "Take"
-	line "it easy!"
+	text "Take it easy!"
 	prompt
 
 _SSAnne9AfterBattleText4::

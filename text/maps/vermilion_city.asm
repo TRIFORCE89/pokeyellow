@@ -129,8 +129,9 @@ _OfficerJennyText5::
 
 _VermilionCityText8::
 	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+
+	para "The Port of"
+	line "Exquisite Sunsets"
 	done
 
 _VermilionCityText9::
@@ -149,7 +150,8 @@ _VermilionCityText9::
 
 _VermilionCityText12::
 	text "#MON FAN CLUB"
-	line "All #MON fans"
+
+	para "All #MON fans"
 	cont "welcome!"
 	done
 

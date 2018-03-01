@@ -5,8 +5,7 @@ _Route25BattleText1::
 	done
 
 _Route25EndBattleText1::
-	text "You're"
-	line "decent."
+	text "You're decent."
 	prompt
 
 _Route25AfterBattleText1::
@@ -24,8 +23,7 @@ _Route25BattleText2::
 	done
 
 _Route25EndBattleText2::
-	text "I'm"
-	line "not mad!"
+	text "I'm not mad!"
 	prompt
 
 _Route25AfterBattleText2::
@@ -41,8 +39,7 @@ _Route25BattleText3::
 	done
 
 _Route25EndBattleText3::
-	text "Aww,"
-	line "darn..."
+	text "Aww, darn..."
 	prompt
 
 _Route25AfterBattleText3::
@@ -106,8 +103,7 @@ _Route25BattleText7::
 	done
 
 _Route25EndBattleText7::
-	text "You"
-	line "worked hard!"
+	text "You worked hard!"
 	prompt
 
 _Route25AfterBattleText7::
@@ -123,8 +119,7 @@ _Route25BattleText8::
 	done
 
 _Route25EndBattleText8::
-	text "You"
-	line "got me."
+	text "You got me."
 	prompt
 
 _Route25AfterBattleText8::
@@ -140,8 +135,7 @@ _Route25BattleText9::
 	done
 
 _Route25EndBattleText9::
-	text "You're"
-	line "something."
+	text "You're something."
 	prompt
 
 _Route25AfterBattleText9::
@@ -152,5 +146,6 @@ _Route25AfterBattleText9::
 
 _Route25Text11::
 	text "SEA COTTAGE"
-	line "BILL lives here!"
+
+	para "BILL lives here!"
 	done

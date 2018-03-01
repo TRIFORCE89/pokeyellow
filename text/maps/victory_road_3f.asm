@@ -19,8 +19,7 @@ _VictoryRoad3BattleText3::
 	done
 
 _VictoryRoad3EndBattleText3::
-	text "I'm"
-	line "furious!"
+	text "I'm furious!"
 	prompt
 
 _VictoryRoad3AfterBattleText3::

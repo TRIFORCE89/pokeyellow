@@ -38,8 +38,9 @@ _VermilionGymText_5cb77::
 	cont "#MON's SPEED!"
 
 	para "It also lets your"
-	line "#MON FLY any-"
-	cont "time, kid!"
+	line "#MON FLY"
+	cont "lightning-quick"
+	cont "anytime, kid!"
 
 	para "You're special,"
 	line "kid! Take this!"
@@ -67,6 +68,8 @@ _TM24NoRoomText::
 
 _ReceivedThunderbadgeText::
 	text "Whoa!"
+	line "Now that's a"
+	cont "shocker!"
 
 	para "You're the real"
 	line "deal, kid!"

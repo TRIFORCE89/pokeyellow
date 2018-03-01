@@ -87,8 +87,7 @@ _Route10BattleText6::
 	done
 
 _Route10EndBattleText6::
-	text "I'm"
-	line "not up to it!"
+	text "I'm not up to it!"
 	prompt
 
 _Route10AfterBattleText6::

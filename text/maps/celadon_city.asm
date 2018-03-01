@@ -86,8 +86,9 @@ _CeladonCityText9::
 
 _CeladonCityText11::
 	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+
+	para "The City of"
+	line "Rainbow Dreams"
 	done
 
 _CeladonCityText13::
@@ -126,13 +127,15 @@ _CeladonCityText16::
 _CeladonCityText17::
 	text "Coins exchanged"
 	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+
+	para "PRIZE EXCHANGE"
 	done
 
 _CeladonCityText18::
 	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grownups!"
+
+	para "The playground"
+	line "for grownups!"
 	done
 
 _CeladonCityText10::

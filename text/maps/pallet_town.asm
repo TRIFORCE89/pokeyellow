@@ -54,8 +54,9 @@ _PalletTownText4::
 
 _PalletTownText5::
 	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+
+	para "Shades of your"
+	line "journey await!"
 	done
 
 _PalletTownText6::

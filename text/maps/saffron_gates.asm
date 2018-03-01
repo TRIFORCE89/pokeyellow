@@ -11,8 +11,9 @@ _SaffronGateText_8aaa9::
 	text "Whoa, boy!"
 	line "I'm parched!"
 	cont "..."
-	cont "Huh? I can have"
-	cont "this drink?"
+
+	para "Huh? I can have"
+	line "this drink?"
 	cont "Gee, thanks!@@"
 
 _SaffronGateText_1dff1::

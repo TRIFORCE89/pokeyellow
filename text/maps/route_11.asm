@@ -19,8 +19,7 @@ _Route11BattleText2::
 	done
 
 _Route11EndBattleText2::
-	text "I had"
-	line "a chance!"
+	text "I had a chance!"
 	prompt
 
 _Route11AfterBattleText2::
@@ -82,8 +81,7 @@ _Route11BattleText6::
 	done
 
 _Route11EndBattleText6::
-	text "My"
-	line "first loss!"
+	text "My first loss!"
 	prompt
 
 _Route11AfterBattleText6::

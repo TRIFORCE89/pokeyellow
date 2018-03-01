@@ -1,12 +1,18 @@
 _MtMoonJessieJamesText1::
-	text "Stop right there!@@"
+	text "JESSIE: Stop right"
+	line "there!@@"
 
 _MtMoonJessieJamesText2::
-	text "That fossil is"
-	line "TEAM ROCKET's!"
+	text "JESSIE: That"
+	line "fossil is TEAM"
+	cont "ROCKET's!"
 
-	para "Surrender now, or "
-	line "prepare to fight!"
+	para "JAMES: Surrender"
+	line "now, or  prepare"
+	cont "to fight!"
+
+	para "MEOWTH: Meowth!"
+	line "That's right!"
 	done
 
 _MtMoonJessieJamesText3::
@@ -77,11 +83,13 @@ _MtMoon3BattleText3::
 	text "We, TEAM ROCKET,"
 	line "are #MON"
 	cont "gangsters!"
+
+	para "We strike fear"
+	line "with our strength!"
 	done
 
 _MtMoon3EndBattleText3::
-	text "I blew"
-	line "it!"
+	text "I blew it!"
 	prompt
 
 _MtMoon3AfterBattleText3::
@@ -97,8 +105,7 @@ _MtMoon3BattleText4::
 	done
 
 _MtMoon3EndBattleText4::
-	text "So, you"
-	line "are good."
+	text "So, you are good."
 	prompt
 
 _MtMoon3AfterBattleText4::
@@ -109,13 +116,16 @@ _MtMoon3AfterBattleText4::
 
 _MtMoon3BattleText5::
 	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	line "shouldn't be"
+	cont "messing around"
+	cont "with grown-ups!"
+
+	para "It could be bad"
+	line "news!"
 	done
 
 _MtMoon3EndBattleText5::
-	text "I'm"
-	line "steamed!"
+	text "I'm steamed!"
 	prompt
 
 _MtMoon3AfterBattleText5::

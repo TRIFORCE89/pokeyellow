@@ -20,8 +20,7 @@ _Route18BattleText2::
 	done
 
 _Route18EndBattleText2::
-	text "I"
-	line "had to bug you!"
+	text "I had to bug you!"
 	prompt
 
 _Route18AfterBattleText2::
@@ -47,12 +46,13 @@ _Route18AfterBattleText3::
 
 _Route18Text4::
 	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	line "FUCHSIA CITY -"
+	cont "CELADON CITY"
 	done
 
 _Route18Text5::
 	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
+
+	para "No pedestrians"
+	line "permitted!"
 	done

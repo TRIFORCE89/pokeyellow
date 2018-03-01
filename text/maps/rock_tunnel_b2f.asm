@@ -52,8 +52,7 @@ _RockTunnel2BattleText5::
 	done
 
 _RockTunnel2EndBattleText5::
-	text "Well,"
-	line "that's that."
+	text "Well, that's that."
 	prompt
 
 _RockTunnel2AfterBattleText5::
@@ -69,7 +68,7 @@ _RockTunnel2BattleText6::
 	done
 
 _RockTunnel2EndBattleText6::
-	text "I give!"
+	text "I give up!"
 	line "You're a better"
 	cont "technician!"
 	prompt
@@ -87,8 +86,7 @@ _RockTunnel2BattleText7::
 	done
 
 _RockTunnel2EndBattleText7::
-	text "Oh!"
-	line "I lost!"
+	text "Oh! I lost!"
 	prompt
 
 _RockTunnel2AfterBattleText7::
@@ -103,8 +101,7 @@ _RockTunnel2BattleText8::
 	done
 
 _RockTunnel2EndBattleText8::
-	text "Fired"
-	line "away!"
+	text "Fired away!"
 	prompt
 
 _RockTunnel2AfterBattleText8::

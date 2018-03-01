@@ -4,8 +4,7 @@ _Route17BattleText1::
 	done
 
 _Route17EndBattleText1::
-	text "Burned"
-	line "out!"
+	text "Burned out!"
 	prompt
 
 _Route17AfterBattleText1::
@@ -35,8 +34,7 @@ _Route17BattleText3::
 	done
 
 _Route17EndBattleText3::
-	text "Crash and"
-	line "burn!"
+	text "Crash and burn!"
 	prompt
 
 _Route17AfterBattleText3::
@@ -64,8 +62,7 @@ _Route17BattleText5::
 	done
 
 _Route17EndBattleText5::
-	text "Grounded"
-	line "out!"
+	text "Grounded out!"
 	prompt
 
 _Route17AfterBattleText5::
@@ -80,8 +77,7 @@ _Route17BattleText6::
 	done
 
 _Route17EndBattleText6::
-	text "Why,"
-	line "you!"
+	text "Why, you!"
 	prompt
 
 _Route17AfterBattleText6::
@@ -138,8 +134,7 @@ _Route17BattleText10::
 	done
 
 _Route17EndBattleText10::
-	text "Are you"
-	line "satisfied?"
+	text "Are you satisfied?"
 	prompt
 
 _Route17AfterBattleText10::
@@ -191,5 +186,6 @@ _Route17Text15::
 
 _Route17Text16::
 	text "CYCLING ROAD"
-	line "Slope ends here!"
+
+	para "Slope ends here!"
 	done

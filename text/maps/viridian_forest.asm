@@ -15,7 +15,7 @@ _ViridianForestBattleText1::
 _ViridianForestEndBattleText1::
 	text "No!"
 	line "CATERPIE can't"
-	cont "cut it!"
+	cont "hack it!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
@@ -47,9 +47,9 @@ _ViridianForestBattleText3::
 	done
 
 _ViridianForestEndBattleText3::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "I give up!"
+	line "You're good at"
+	cont "this!"
 	prompt
 
 _ViridianFrstAfterBattleText3::
@@ -68,8 +68,7 @@ _ViridianForestBattleTextPikaGirl::
 	done
 
 _ViridianForestEndBattleTextPikaGirl::
-	text "Oh no,"
-	line "really?"
+	text "Oh no, really?"
 	prompt
 
 _ViridianForestAfterBattleTextPikaGirl::

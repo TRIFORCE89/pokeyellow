@@ -14,8 +14,7 @@ _BlaineBattleText::
 	done
 
 _BlaineEndBattleText::
-	text "I have"
-	line "burnt out!"
+	text "I have burnt out!"
 
 	para "You have earned"
 	line "the VOLCANOBADGE!@@"
@@ -92,8 +91,7 @@ _CinnabarGymText_75994::
 	done
 
 _CinnabarGymText_75999::
-	text "I"
-	line "surrender!"
+	text "I surrender!"
 	prompt
 
 _CinnabarGymText_7599e::

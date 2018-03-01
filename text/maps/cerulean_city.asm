@@ -202,8 +202,9 @@ _CeruleanCityText10::
 
 _CeruleanCityText12::
 	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
+
+	para "A Mysterious,"
+	line "Blue Aura"
 	cont "Surrounds It"
 	done
 
@@ -219,7 +220,9 @@ _CeruleanCityText13::
 _CeruleanCityText16::
 	text "Grass and caves"
 	line "handled easily!"
-	cont "BIKE SHOP"
+
+	para "MIRACLE CYCLE"
+	line "BIKE SHOP"
 	done
 
 _CeruleanCityText17::

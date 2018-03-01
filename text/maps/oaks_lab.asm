@@ -255,7 +255,7 @@ _OaksLabRivalChallengeText::
 	text "<RIVAL>: Wait"
 	line "<PLAYER>!"
 	cont "Let's check out"
-	cont "our #MON!"
+	cont "our new #MON!"
 
 	para "Come on, I'll take"
 	line "you on!"
@@ -274,7 +274,7 @@ _OaksLabText_1d3c3::
 	prompt
 
 _OaksLabRivalToughenUpText::
-	text "<RIVAL>: Okay!"
+	text "<RIVAL>: I get it!"
 	line "I'll make my"
 	cont "#MON fight to"
 	cont "toughen it up!"
@@ -322,9 +322,8 @@ _OaksLabText23::
 	text "OAK: Ah, <RIVAL>,"
 	line "good timing!"
 
-	para "I needed to ask"
-	line "both of you to do"
-	cont "something for me."
+	para "I have a request"
+	line "for you two."
 	done
 
 _OaksLabText24::
@@ -378,8 +377,10 @@ _OaksLabText27::
 	cont "all to me!"
 
 	para "<PLAYER>, I hate to"
-	line "say it, but I"
+	line "say it, but we"
 	cont "don't need you!"
+	cont "This is family"
+	cont "business!"
 
 	para "I know! I'll"
 	line "borrow a TOWN MAP"

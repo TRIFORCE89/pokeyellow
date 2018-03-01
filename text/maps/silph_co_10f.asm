@@ -15,8 +15,7 @@ _SilphCo10BattleText1::
 	done
 
 _SilphCo10EndBattleText1::
-	text "I'm"
-	line "stunned!"
+	text "I'm stunned!"
 	prompt
 
 _SilphCo10AfterBattleText1::
@@ -42,20 +41,20 @@ _SilphCo10AfterBattleText2::
 	done
 
 _SilphCoJessieJamesText1::
-	text "Hold it right"
-	line "there, brat!@@"
+	text "JESSIE: Hold it"
+	line "right there,"
+	cont "brat!@@"
 
 _SilphCoJessieJamesText2::
-	text "Our BOSS is in a"
-	line "meeting!"
+	text "MEOWTH: Da BOSS is"
+	line "in a meeting!"
 
 	para "You better not"
 	line "disturb him!"
 	done
 
 _SilphCoJessieJamesText3::
-	text "Like"
-	line "always..."
+	text "Like always..."
 	prompt
 
 _SilphCoJessieJamesText4::

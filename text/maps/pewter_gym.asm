@@ -1,6 +1,7 @@
 _PewterGymText_5c49e::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
+	text "So, you're here!"
+	line "I'm BROCK!"
+	cont "I'm PEWTER's GYM"
 	cont "LEADER!"
 
 	para "I believe in rock"
@@ -20,7 +21,8 @@ _PewterGymText_5c49e::
 _PewterGymText_5c4a3::
 	text "There are all"
 	line "kinds of trainers"
-	cont "in the world!"
+	cont "in this big"
+	cont "world of ours!"
 
 	para "Some raise #MON"
 	line "for fights. Some"
@@ -54,12 +56,13 @@ _TM34ExplanationText::
 	cont "can be taught to"
 	cont "#MON!"
 
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
+	para "A TM is good for"
+	line "only one use! So"
+	cont "when you use one,"
 	cont "pick the #MON"
 	cont "carefully!"
+
+	para "Anyways..."
 
 	para "TM34 contains"
 	line "BIDE!"
@@ -76,29 +79,36 @@ _TM34NoRoomText::
 	done
 
 _PewterGymText_5c4bc::
-	text "I took"
-	line "you for granted."
+	text "I took you for"
+	line "granted, and so"
+	cont "I lost."
 
 	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	line "victory, I hereby"
+	cont "confer upon you"
+	cont "the official"
+	cont "#MON LEAGUE"
+	cont "BOULDERBADGE!"
 
 	para $52, " received"
 	line "the BOULDERBADGE!@@"
 
 _PewterGymText_5c4c1::
 	db $0
-	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
-
-	para "Its bearer's"
+	para "Just having the"
+	line "BOULDERBADGE"
+	cont "makes its bearer's"
 	line "#MON become"
 	cont "more powerful!"
 
-	para "The technique"
-	line "FLASH can now be"
-	cont "used anytime!"
+	para "It also enables"
+	line "use of the move"
+	cont "FLASH outside of"
+	cont "battle!"
+
+	para "Of course, a"
+	line "#MON must know"
+	cont "FLASH to use it!"
 	prompt
 
 _PewterGymBattleText1::

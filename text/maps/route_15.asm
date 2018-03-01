@@ -5,8 +5,7 @@ _Route15BattleText1::
 	done
 
 _Route15EndBattleText1::
-	text "Not"
-	line "good enough!"
+	text "Not good enough!"
 	prompt
 
 _Route15AfterBattleText1::
@@ -26,8 +25,7 @@ _Route15BattleText2::
 	done
 
 _Route15EndBattleText2::
-	text "No,"
-	line "wrong!"
+	text "No, wrong!"
 	prompt
 
 _Route15AfterBattleText2::
@@ -59,8 +57,7 @@ _Route15BattleText4::
 	done
 
 _Route15EndBattleText4::
-	text "Just"
-	line "as I thought!"
+	text "Just as I thought!"
 	prompt
 
 _Route15AfterBattleText4::
@@ -108,8 +105,7 @@ _Route15BattleText7::
 	done
 
 _Route15EndBattleText7::
-	text "Why"
-	line "not?"
+	text "Why not?"
 	prompt
 
 _Route15AfterBattleText7::
@@ -141,8 +137,7 @@ _Route15BattleText9::
 	done
 
 _Route15EndBattleText9::
-	text "I"
-	line "said trade!"
+	text "I said trade!"
 	prompt
 
 _Route15AfterBattleText9::

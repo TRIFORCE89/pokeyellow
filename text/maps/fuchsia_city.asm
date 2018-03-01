@@ -33,8 +33,9 @@ _FuchsiaCityText5::
 
 _FuchsiaCityText11::
 	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+	
+	para "Behold! It's"
+	line "Passion Pink!"
 	done
 
 _FuchsiaCityText13::

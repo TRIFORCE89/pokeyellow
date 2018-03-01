@@ -43,7 +43,7 @@ _LanceAfterBattleText::
 
 	para "You are now the"
 	line "#MON LEAGUE"
-	cont "champion!"
+	cont "CHAMPION!"
 
 	para "...Or, you would"
 	line "have been, but"
@@ -60,4 +60,4 @@ _LanceAfterBattleText::
 
 	para "He is the real"
 	line "#MON LEAGUE"
-	cont "champion!@@"
+	cont "CHAMPION!@@"

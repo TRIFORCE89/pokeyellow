@@ -34,8 +34,7 @@ _Route19BattleText3::
 	done
 
 _Route19EndBattleText3::
-	text "Belly"
-	line "flop!"
+	text "Belly flop!"
 	prompt
 
 _Route19AfterBattleText3::
@@ -140,8 +139,7 @@ _Route19BattleText10::
 	done
 
 _Route19EndBattleText10::
-	text "I'm"
-	line "exhausted..."
+	text "I'm exhausted..."
 	prompt
 
 _Route19AfterBattleText10::

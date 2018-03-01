@@ -76,6 +76,10 @@ _TM21ExplanationText::
 	line "it inflicts is"
 	cont "drained to heal"
 	cont "your #MON!"
+
+	para "Wouldn't you agree"
+	line "it's a wonderful"
+	cont "move?"
 	done
 
 _TM21NoRoomText::
@@ -91,8 +95,7 @@ _CeladonGymBattleText2::
 	done
 
 _CeladonGymEndBattleText2::
-	text "You're"
-	line "too rough!"
+	text "You're too rough!"
 	prompt
 
 _CeladonGymAfterBattleText2::
@@ -107,8 +110,7 @@ _CeladonGymBattleText3::
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text "My makeup!"
 	prompt
 
 _CeladonGymAfterBattleText3::
@@ -127,8 +129,7 @@ _CeladonGymBattleText4::
 	done
 
 _CeladonGymEndBattleText4::
-	text "I'm"
-	line "in shock!"
+	text "I'm in shock!"
 	prompt
 
 _CeladonGymAfterBattleText4::
@@ -166,8 +167,7 @@ _CeladonGymBattleText6::
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
-	line "You!"
+	text "Oh! You!"
 	prompt
 
 _CeladonGymAfterBattleText6::
@@ -184,8 +184,7 @@ _CeladonGymBattleText7::
 	done
 
 _CeladonGymEndBattleText7::
-	text "Oh!"
-	line "Splendid!"
+	text "Oh! Splendid!"
 	prompt
 
 _CeladonGymAfterBattleText7::
@@ -205,8 +204,7 @@ _CeladonGymBattleText8::
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Beaten!"
+	text "Oh! Beaten!"
 	prompt
 
 _CeladonGymAfterBattleText8::

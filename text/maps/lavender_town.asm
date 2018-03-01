@@ -39,8 +39,9 @@ _LavenderTownText3::
 
 _LavenderTownText4::
 	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+
+	para "The Noble Purple"
+	line "Town"
 	done
 
 _LavenderTownText5::
@@ -60,5 +61,6 @@ _LavenderTownText8::
 _LavenderTownText9::
 	text "May the Souls of"
 	line "#MON Rest Easy"
-	cont "#MON TOWER"
+
+	para "#MON TOWER"
 	done

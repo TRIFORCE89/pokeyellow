@@ -14,8 +14,7 @@ _SilphCo8BattleText1::
 	done
 
 _SilphCo8EndBattleText1::
-	text "Not"
-	line "enough grit!"
+	text "Not enough grit!"
 	prompt
 
 _SilphCo8AfterBattleText1::

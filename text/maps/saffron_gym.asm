@@ -6,11 +6,12 @@ _SaffronGymText_5d162::
 	line "powers since I"
 	cont "was a child."
 
-	para "I first learned"
+	para "It started when"
+	line "I first learned"
 	line "to bend spoons"
 	cont "with my mind."
 
-	para "I dislike fight-"
+	para "I dislike battl-"
 	line "ing, but if you"
 	cont "wish, I will show"
 	cont "you my powers!"
@@ -30,7 +31,12 @@ _SaffronGymText_5d167::
 	line "MARSHBADGE!@@"
 
 _SaffronGymText_5d16e::
-	text "Everyone has"
+	text "Psychic power"
+	line "isn't something"
+	cont "that only a few"
+	cont "people have!"
+
+	para "Everyone has"
 	line "psychic power!"
 	cont "People just don't"
 	cont "realize it!"
@@ -48,7 +54,8 @@ _SaffronGymText_5d173::
 
 	para "Just don't raise"
 	line "your #MON too"
-	cont "much!"
+	cont "much to avoid"
+	cont "that problem!"
 
 	para "Wait, please take"
 	line "this TM with you!"
@@ -104,8 +111,7 @@ _SaffronGymBattleText1::
 	done
 
 _SaffronGymEndBattleText1::
-	text "Not"
-	line "good enough!"
+	text "Not good enough!"
 	prompt
 
 _SaffronGymAfterBattleText1::
@@ -144,8 +150,7 @@ _SaffronGymBattleText3::
 	done
 
 _SaffronGymEndBattleText3::
-	text "I knew"
-	line "it!"
+	text "I knew it!"
 	prompt
 
 _SaffronGymAfterBattleText3::
@@ -178,8 +183,7 @@ _SaffronGymBattleText5::
 	done
 
 _SaffronGymEndBattleText5::
-	text "I lost"
-	line "after all!"
+	text "I lost after all!"
 	prompt
 
 _SaffronGymAfterBattleText5::

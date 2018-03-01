@@ -47,8 +47,7 @@ _Route20BattleText4::
 	done
 
 _Route20EndBattleText4::
-	text "No"
-	line "mercy at all!"
+	text "No mercy at all!"
 	prompt
 
 _Route20AfterBattleText4::
@@ -93,8 +92,7 @@ _Route20BattleText7::
 	done
 
 _Route20EndBattleText7::
-	text "Oh"
-	line "no!"
+	text "Oh no!"
 	prompt
 
 _Route20AfterBattleText7::

@@ -2,17 +2,24 @@ _CeruleanGymText_5c7be::
 	text "Hi, you're a new"
 	line "face!"
 
-	para "What's your policy"
-	line "on #MON? What"
-	cont "is your approach?"
+	para "Trainers who want"
+	line "to turn pro have"
+	cont "to have a policy"
+	cont "about #MON!"
+
+	para "What is your"
+	line "approach when you"
+	cont "catch and train"
+	cont "#MON?"
 
 	para "My policy is an"
 	line "all-out offensive"
 	cont "with water-type"
 	cont "#MON!"
 
-	para "MISTY, the world-"
-	line "famous beauty, is"
+	para "I, MISTY, the"
+	line "world-famous"
+	cont "beauty, shall be"
 	cont "your host!"
 
 	para "Are you ready,"
@@ -57,7 +64,7 @@ _CeruleanGymText_5c7d3::
 	done
 
 _CeruleanGymText_5c7d8::
-	text "I can't"
+	text "Wow! I can't"
 	line "believe I lost!"
 
 	para "All right!"
@@ -68,8 +75,9 @@ _CeruleanGymText_5c7d8::
 	prompt
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "What? You?"
+	line "I'm more than good"
+	cont "enough for you!"
 
 	para "MISTY can wait!"
 	done
@@ -94,8 +102,7 @@ _CeruleanGymBattleText2::
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "That can't be!"
 	prompt
 
 _CeruleanGymAfterBattleText2::

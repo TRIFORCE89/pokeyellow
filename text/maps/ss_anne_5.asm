@@ -24,8 +24,7 @@ _SSAnne5BattleText1::
 	done
 
 _SSAnne5EndBattleText1::
-	text "You're"
-	line "impressive!"
+	text "You're impressive!"
 	prompt
 
 _SSAnne5AfterBattleText1::

@@ -7,8 +7,11 @@ _DaisyInitialText::
 _DaisyOfferMapText::
 	text "Grandpa asked you"
 	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	cont "Gee, that's lazy"
+	cont "of him!"
+
+	para "Here, this will"
+	line "help you!"
 	prompt
 
 _GotMapText::
@@ -36,6 +39,10 @@ _BluesHouseText2::
 	done
 
 _BluesHouseText3::
-	text "It's a big map!"
-	line "This is useful!"
+	text "A map of KANTO!"
+	line "This is useful..."
+
+	para "But would it be"
+	line "right to just"
+	cont "take it?"
 	done

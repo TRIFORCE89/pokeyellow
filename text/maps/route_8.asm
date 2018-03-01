@@ -35,8 +35,7 @@ _Route8BattleText3::
 	done
 
 _Route8EndBattleText3::
-	text "It's"
-	line "not logical!"
+	text "It's not logical!"
 	prompt
 
 _Route8AfterBattleText3::
@@ -149,6 +148,6 @@ _Route8AfterBattleText9::
 
 _Route8Text10::
 	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
+	line "LAVENDER TOWN -"
+	cont "CELADON CITY"
 	done

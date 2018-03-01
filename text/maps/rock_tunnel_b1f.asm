@@ -39,7 +39,7 @@ _RockTunnel1BattleText3::
 	done
 
 _RockTunnel1EndBattleText3::
-	text "I give!"
+	text "I give up!"
 	prompt
 
 _RockTunnel1AfterBattleText3::
@@ -53,8 +53,7 @@ _RockTunnel1BattleText4::
 	done
 
 _RockTunnel1EndBattleText4::
-	text "Game"
-	line "over!"
+	text "Game over!"
 	prompt
 
 _RockTunnel1AfterBattleText4::
@@ -69,8 +68,7 @@ _RockTunnel1BattleText5::
 	done
 
 _RockTunnel1EndBattleText5::
-	text "It"
-	line "was too dark!"
+	text "It was too dark!"
 	prompt
 
 _RockTunnel1AfterBattleText5::
@@ -99,8 +97,7 @@ _RockTunnel1BattleText7::
 	done
 
 _RockTunnel1EndBattleText7::
-	text "You"
-	line "play hard!"
+	text "You play hard!"
 	prompt
 
 _RockTunnel1AfterBattleText7::

@@ -9,6 +9,18 @@ _MomWakeUpText::
 	cont "for you."
 	done
 
+_MomWakeUpText2::
+	text "MOM: Right."
+	line "All girls dream"
+	cont "of traveling."
+	cont "It said so on TV."
+
+	para "PROF.OAK, next"
+	line "door, is looking"
+	cont "for you."
+	done
+
+
 _MomHealText1::
 	text "MOM: <PLAYER>, if"
 	line "you drive your"
@@ -17,7 +29,7 @@ _MomHealText1::
 	cont "you."
 
 	para "You should take a"
-	line "rest."
+	line "quick rest."
 	prompt
 
 _MomHealText2::
@@ -30,9 +42,23 @@ _MomHealText2::
 
 _StandByMeText::
 	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
+	line "on TV."
+
+	para "Four boys are"
+	cont "walking on"
 	cont "railroad tracks."
+
+	para "I better go too."
+	done
+
+_WizardOfOzText::
+	text "There's a movie"
+	line "on TV."
+
+	para "A girl with her"
+	line "hair in pigtails"
+	cont "is walking up a"
+	cont "brick road."
 
 	para "I better go too."
 	done

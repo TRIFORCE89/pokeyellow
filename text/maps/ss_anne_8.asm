@@ -11,8 +11,7 @@ _SSAnne8BattleText1::
 	done
 
 _SSAnne8EndBattleText1::
-	text "My, my"
-	line "friends..."
+	text "My, my friends..."
 	prompt
 
 _SSAnne8AfterBattleText1::

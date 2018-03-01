@@ -26,6 +26,7 @@ _SafariZoneWestText7::
 	done
 
 _SafariZoneWestText8::
-	text "AREA 3"
-	line "EAST: CENTER AREA"
+	text "AREA 3 - WEST"
+	
+	para "EAST: CENTER AREA"
 	done

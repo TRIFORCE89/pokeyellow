@@ -4,8 +4,7 @@ _Route9BattleText9::
 	done
 
 _Route9EndBattleText9::
-	text "My"
-	line "bugs..."
+	text "My bugs..."
 	prompt
 
 _Route9AfterBattleText9::

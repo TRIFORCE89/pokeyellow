@@ -101,8 +101,7 @@ _FuchsiaGymBattleText2::
 	done
 
 _FuchsiaGymEndBattleText2::
-	text "I'm done"
-	line "for!"
+	text "I'm done for!"
 	prompt
 _FuchsiaGymAfterBattleText2::
 	text "I will keep on"
@@ -138,7 +137,7 @@ _FuchsiaGymBattleText4::
 
 _FuchsiaGymEndBattleText4::
 	text "Whoa!"
-	line "He's got it!"
+	line "You've got it!"
 	prompt
 _FuchsiaGymAfterBattleText4::
 	text "You impressed me!"
@@ -178,8 +177,7 @@ _FuchsiaGymBattleText6::
 	done
 
 _FuchsiaGymEndBattleText6::
-	text "Dropped"
-	line "my balls!"
+	text "Dropped my balls!"
 	prompt
 
 _FuchsiaGymAfterBattleText6::

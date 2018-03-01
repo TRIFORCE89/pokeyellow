@@ -36,8 +36,7 @@ _RocketHideout1BattleText4::
 	done
 
 _RocketHideout1EndBattleText4::
-	text "I"
-	line "can't do it!"
+	text "I can't do it!"
 	prompt
 
 _RocketHideout1AfterBattleTxt4::
@@ -52,8 +51,7 @@ _RocketHideout1BattleText5::
 	done
 
 _RocketHideout1EndBattleText5::
-	text "This"
-	line "won't do!"
+	text "This won't do!"
 	prompt
 
 _RocketHideout1AfterBattleTxt5::

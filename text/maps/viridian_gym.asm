@@ -1,13 +1,18 @@
 _ViridianGymText_74ace::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "Fwahahaha! Welcome"
+	line "to my hideout!"
+
+	para "It shall be so"
+	line "until I restore"
+	cont "TEAM ROCKET to"
+	cont "its former glory!"
 
 	para "I planned to"
 	line "resurrect TEAM"
 	cont "ROCKET here!"
 
 	para "But, you have"
-	line "caught me again!"
+	line "found me again!"
 	cont "So be it! This"
 	cont "time, I'm not"
 	cont "holding back!"
@@ -27,15 +32,18 @@ _ViridianGymText_74ad3::
 	cont "the EARTHBADGE!@@"
 
 _ViridianGymText_74ad9::
-	text "Having lost, I"
-	line "cannot face my"
+	text "Having lost in"
+	line "this fashion, I"
+	cont "cannot face my"
 	cont "underlings!"
+	cont "As of today,"
 	cont "TEAM ROCKET is"
 	cont "finished forever!"
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "As for myself,"
+	line "I shall dedicate my"
+	cont "life to training"
+	cont "again."
 
 	para "Let us meet again"
 	line "someday!"
@@ -44,19 +52,22 @@ _ViridianGymText_74ad9::
 _ViridianGymText12::
 	text "The EARTHBADGE"
 	line "makes #MON of"
-	cont "any level obey!"
+	cont "any level obey"
+	cont "without question!"
 
 	para "It is evidence of"
 	line "your mastery as a"
 	cont "#MON trainer!"
 
 	para "With it, you can"
-	line "enter the #MON"
-	cont "LEAGUE!"
+	line "challenge the"
+	cont "#MON LEAGUE!"
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "Also, take this"
+	line "TM! Consider it a"
+	cont "gift for your"
+	cont "#MON LEAGUE"
+	cont "challenge!"
 	done
 
 _ReceivedTM27Text::
@@ -87,8 +98,7 @@ _ViridianGymBattleText1::
 	done
 
 _ViridianGymEndBattleText1::
-	text "I"
-	line "ran out of gas!"
+	text "I ran out of gas!"
 	prompt
 
 _ViridianGymAfterBattleText1::
@@ -151,8 +161,7 @@ _ViridianGymBattleText5::
 	done
 
 _ViridianGymEndBattleText5::
-	text "I"
-	line "lost my grip!"
+	text "I lost my grip!"
 	prompt
 
 _ViridianGymAfterBattleText5::
@@ -200,8 +209,7 @@ _ViridianGymBattleText8::
 	done
 
 _ViridianGymEndBattleText8::
-	text "I"
-	line "was beaten?"
+	text "I was beaten?"
 	prompt
 
 _ViridianGymAfterBattleText8::

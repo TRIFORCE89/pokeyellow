@@ -54,8 +54,7 @@ _Route6BattleText4::
 	done
 
 _Route6EndBattleText4::
-	text "I"
-	line "didn't start it!"
+	text "I didn't start it!"
 	prompt
 
 _Route6AfterBattleText4::
@@ -70,8 +69,7 @@ _Route6BattleText5::
 	done
 
 _Route6EndBattleText5::
-	text "Just"
-	line "didn't work!"
+	text "Just didn't work!"
 	prompt
 
 _Route6AfterBattleText5::
@@ -87,8 +85,7 @@ _Route6BattleText6::
 	done
 
 _Route6EndBattleText6::
-	text "You"
-	line "are too good!"
+	text "You are too good!"
 	prompt
 
 _Route6AfterBattleText6::

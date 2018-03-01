@@ -4,6 +4,8 @@ _LavenderHouse2Text1::
 _LavenderHouse2Text_1d9dc::
 	text "I hate those"
 	line "horrible ROCKETs!"
+	cont "They deserve no"
+	cont "mercy!"
 
 	para "That poor CUBONE's"
 	line "mother..."

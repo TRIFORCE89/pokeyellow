@@ -13,7 +13,14 @@ Func_f2418:
 	ret
 
 .asm_f2433
+	ld a, [wPlayerGender]
+	bit 2, a
+	jr nz, .girl
 	ld hl, BillsHouseText_f2445
+	jr .continue
+.girl
+	ld hl, BillsHouseText_f2445_2
+.continue
 	call PrintText
 	jr .asm_f2427
 
@@ -29,10 +36,21 @@ BillsHouseText_f2445:
 	TX_FAR _BillsHouseText_1e86f
 	db "@"
 
+BillsHouseText_f2445_2:
+	TX_FAR _BillsHouseText_1e86f_2
+	db "@"
+
 Func_f244a:
 	CheckEvent EVENT_GOT_SS_TICKET
 	jr nz, .asm_f247e
+	ld a, [wPlayerGender]
+	bit 2, a
+	jr nz, .girl2
 	ld hl, BillsHouseText_f248c
+	jr .continue2
+.girl2
+	ld hl, BillsHouseText_f248c_2
+.continue2
 	call PrintText
 	lb bc, S_S_TICKET, 1
 	call GiveItem
@@ -52,12 +70,23 @@ Func_f244a:
 	ret
 
 .asm_f2485
+	ld a, [wPlayerGender]
+	bit 2, a
+	jr nz, .girl3
 	ld hl, BillsHouseText_f2498
+	jr .continue3
+.girl3
+	ld hl, BillsHouseText_f2498_2
+.continue3
 	call PrintText
 	ret
 
 BillsHouseText_f248c:
 	TX_FAR _BillThankYouText
+	db "@"
+
+BillsHouseText_f248c_2:
+	TX_FAR _BillThankYouText2
 	db "@"
 
 BillsHouseText_f2491:
@@ -70,17 +99,32 @@ BillsHouseText_f2498:
 	TX_FAR _SSTicketNoRoomText
 	db "@"
 
+BillsHouseText_f2498_2:
+	TX_FAR _SSTicketNoRoomText2
+	db "@"
+
 BillsHouseText_f249d:
 	TX_FAR _BillsHouseText_1e8cb
 	db "@"
 
 Func_f24a2:
+	ld a, [wPlayerGender]
+	bit 2, a
+	jr nz, .girl4
 	ld hl, BillsHouseText_f24a9
+	jr .continue4
+.girl4
+	ld hl, BillsHouseText_f24a9_2
+.continue4
 	call PrintText
 	ret
 
 BillsHouseText_f24a9:
 	TX_FAR _BillsHouseText_1e8da
+	db "@"
+
+BillsHouseText_f24a9_2:
+	TX_FAR _BillsHouseText_1e8da_2
 	db "@"
 
 Func_f24ae:

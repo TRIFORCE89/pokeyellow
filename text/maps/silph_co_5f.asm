@@ -51,8 +51,7 @@ _SilphCo5BattleText4::
 	done
 
 _SilphCo5EndBattleText4::
-	text "Oh"
-	line "goodness!"
+	text "Oh goodness!"
 	prompt
 
 _SilphCo5AfterBattleText4::
