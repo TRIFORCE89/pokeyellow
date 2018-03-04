@@ -5,7 +5,7 @@ MonsterPalettes:
 	db PAL_GREENMON  ; VENUSAUR
 	db PAL_REDMON    ; CHARMANDER
 	db PAL_REDMON    ; CHARMELEON
-	db PAL_REDMON    ; CHARIZARD
+	db PAL_CHARIZARD ; CHARIZARD
 	db PAL_CYANMON   ; SQUIRTLE
 	db PAL_CYANMON   ; WARTORTLE
 	db PAL_CYANMON   ; BLASTOISE
@@ -18,8 +18,8 @@ MonsterPalettes:
 	db PAL_BROWNMON  ; PIDGEY
 	db PAL_BROWNMON  ; PIDGEOTTO
 	db PAL_BROWNMON  ; PIDGEOT
-	db PAL_GREYMON   ; RATTATA
-	db PAL_GREYMON   ; RATICATE
+	db PAL_PURPLEMON ; RATTATA
+	db PAL_BROWNMON  ; RATICATE
 	db PAL_BROWNMON  ; SPEAROW
 	db PAL_BROWNMON  ; FEAROW
 	db PAL_PURPLEMON ; EKANS
@@ -99,12 +99,12 @@ MonsterPalettes:
 	db PAL_YELLOWMON ; HYPNO
 	db PAL_REDMON    ; KRABBY
 	db PAL_REDMON    ; KINGLER
-	db PAL_YELLOWMON ; VOLTORB
-	db PAL_YELLOWMON ; ELECTRODE
+	db PAL_REDMON    ; VOLTORB
+	db PAL_REDMON    ; ELECTRODE
 	db PAL_PINKMON   ; EXEGGCUTE
 	db PAL_GREENMON  ; EXEGGUTOR
-	db PAL_GREYMON   ; CUBONE
-	db PAL_GREYMON   ; MAROWAK
+	db PAL_BROWNMON  ; CUBONE
+	db PAL_BROWNMON   ; MAROWAK
 	db PAL_BROWNMON  ; HITMONLEE
 	db PAL_BROWNMON  ; HITMONCHAN
 	db PAL_PINKMON   ; LICKITUNG
@@ -120,7 +120,7 @@ MonsterPalettes:
 	db PAL_REDMON    ; GOLDEEN
 	db PAL_REDMON    ; SEAKING
 	db PAL_REDMON    ; STARYU
-	db PAL_GREYMON   ; STARMIE
+	db PAL_PURPLEMON ; STARMIE
 	db PAL_PINKMON   ; MR_MIME
 	db PAL_GREENMON  ; SCYTHER
 	db PAL_MEWMON    ; JYNX
@@ -131,8 +131,8 @@ MonsterPalettes:
 	db PAL_REDMON    ; MAGIKARP
 	db PAL_BLUEMON   ; GYARADOS
 	db PAL_CYANMON   ; LAPRAS
-	db PAL_GREYMON   ; DITTO
-	db PAL_GREYMON   ; EEVEE
+	db PAL_PINKMON   ; DITTO
+	db PAL_BROWNMON  ; EEVEE
 	db PAL_CYANMON   ; VAPOREON
 	db PAL_YELLOWMON ; JOLTEON
 	db PAL_REDMON    ; FLAREON
@@ -149,5 +149,56 @@ MonsterPalettes:
 	db PAL_GREYMON   ; DRATINI
 	db PAL_BLUEMON   ; DRAGONAIR
 	db PAL_BROWNMON  ; DRAGONITE
-	db PAL_MEWMON    ; MEWTWO
-	db PAL_MEWMON    ; MEW
+	db PAL_PURPLEMON ; MEWTWO
+	db PAL_PINKMON   ; MEW
+
+TrainerPalletes:
+	db PAL_GREYMON           ; UNUSED
+	db PAL_BLUE_TRAINER      ; Youngster
+	db PAL_GREEN_TRAINER     ; Bug Catcher
+	db PAL_CYAN_TRAINER      ; Lass
+	db PAL_BLUE_TRAINER      ; Sailor
+	db PAL_GREEN_TRAINER     ; Jr. Trainer (Male)
+	db PAL_GREEN_TRAINER     ; Jr. Trainer (Female)
+	db PAL_MEWMON            ; PokeManiac
+	db PAL_PURPLE_TRAINER    ; Super Nerd
+	db PAL_BROWN_TRAINER     ; Hiker
+	db PAL_BROWN_TRAINER     ; Biker
+	db PAL_BLUE_TRAINER      ; Burglar
+	db PAL_YELLOW_TRAINER    ; Engineer
+	db PAL_CYAN_TRAINER      ; Juggler X
+	db PAL_CYAN_TRAINER      ; Fisher
+	db PAL_BLUE_TRAINER      ; Swimmer
+	db PAL_BROWN_TRAINER     ; Cue Ball
+	db PAL_BROWNMON          ; Gambler
+	db PAL_CYAN_TRAINER      ; Beauty
+	db PAL_MEWMON            ; Psychic
+	db PAL_RED_TRAINER       ; Rocker
+	db PAL_PURPLE_TRAINER    ; Juggler
+	db PAL_BROWN_TRAINER     ; Tamer
+	db PAL_BLUE_TRAINER      ; Bird Keeper
+	db PAL_BROWN_TRAINER     ; Blackbelt
+	db PAL_BLUE_TRAINER      ; Gary 1
+	db PAL_MEWMON            ; Professor Oak
+	db PAL_BLUE_TRAINER      ; Chief
+	db PAL_BLUE_TRAINER      ; Scientist
+	db PAL_BROWN_TRAINER     ; Giovanni
+	db PAL_RED_TRAINER       ; Rocket
+	db PAL_RED_TRAINER       ; Cool Trainer (Male)
+	db PAL_RED_TRAINER       ; Cool Trainer (Female)
+	db PAL_BROWN_TRAINER     ; Bruno
+	db PAL_GREEN_TRAINER     ; Brock
+	db PAL_RED_TRAINER       ; Misty
+	db PAL_GREEN_TRAINER     ; Lt. Surge
+	db PAL_PURPLE_TRAINER    ; Erika
+	db PAL_PURPLE_TRAINER    ; Koga
+	db PAL_RED_TRAINER       ; Blaine
+	db PAL_RED_TRAINER       ; Sabrina
+	db PAL_MEWMON            ; Gentleman
+	db PAL_BLUE_TRAINER      ; Gary 2
+	db PAL_BLUE_TRAINER      ; Gary 3
+	db PAL_RED_TRAINER       ; Lorelei
+	db PAL_BLUE_TRAINER      ; Channeler
+	db PAL_PURPLE_TRAINER    ; Agatha
+	db PAL_RED_TRAINER       ; Lance
+	db PAL_MEWMON            ; Jessie and James

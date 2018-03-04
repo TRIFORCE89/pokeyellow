@@ -40,7 +40,7 @@ SetPal_Battle:
 	ld bc, wPartyMon2 - wPartyMon1
 	call AddNTimes
 .asm_71ef9
-	call DeterminePaletteID
+	call DeterminePaletteIDBack
 	ld b, a
 	;ld a, [wEnemyBattleStatus3]
 	ld hl, wEnemyMonSpecies2
@@ -78,7 +78,7 @@ SetPal_StatusScreen:
 	ld bc, $10
 	call CopyData
 	ld a, [wcf91]
-	cp VICTREEBEL + 1
+	cp NUM_POKEMON + 1
 	jr c, .pokemon
 	ld a, $1 ; not pokemon
 .pokemon
@@ -300,15 +300,32 @@ DeterminePaletteID:
 DeterminePaletteIDOutOfBattle:
 	ld [wd11e], a
 	and a ; is the mon index 0?
-	jr z, .skipDexNumConversion
+	jr nz, GetMonPallet
+	ld a, [wTrainerClass]
+	ld hl, TrainerPalletes
+	jr GetPalletID
+DeterminePaletteIDBack
+	bit 3, a
+	jr z, .skip
+	ld hl, wPartyMon1
+	ld a, [wPlayerMonNumber]
+	ld bc, $2C
+	call AddNTimes
+.skip
+	ld a, [hl]
+	ld [wd11e],a
+	and a
+	ld a, PAL_MEWMON
+	ret z
+GetMonPallet:
 	push bc
 	predef IndexToPokedex
 	pop bc
 	ld a, [wd11e]
-.skipDexNumConversion
+	ld hl, MonsterPalettes
+GetPalletID:
 	ld e, a
 	ld d, 0
-	ld hl, MonsterPalettes ; not just for Pokemon, Trainers use it too
 	add hl, de
 	ld a, [hl]
 	ret

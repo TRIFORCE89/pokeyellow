@@ -239,6 +239,60 @@ SuperPalettes:
 	RGB 31, 25,  9
 	RGB  6,  6,  6
 
+	; PAL_BLUE_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB  9, 10, 20
+	RGB  6,  6,  6
+
+	; PAL_RED_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB 26,  9,  6
+	RGB  6,  6,  6
+
+	; PAL_CYAN_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB  7, 24, 28
+	RGB  6,  6,  6
+
+	; PAL_PURPLE_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB 22, 15, 23
+	RGB  6,  6,  6
+
+	; PAL_BROWN_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB 18, 14, 10
+	RGB  6,  6,  6
+
+	; PAL_GREEN_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB 13, 21, 15
+	RGB  6,  6,  6
+
+	; PAL_PINK_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB 31, 18, 21
+	RGB  6,  6,  6
+
+	; PAL_YELLOW_TRAINER
+	RGB 31, 31, 30
+	RGB 30, 22, 17
+	RGB 28, 23,  9
+	RGB  6,  6,  6
+
+	; PAL_CHARIZARD
+	RGB 31, 31, 30
+	RGB 27, 15, 10
+	RGB 14, 23, 28
+	RGB  6,  6,  6
+
 GBCBasePalettes:
 	; PAL_ROUTE
 	RGB 31, 31, 31
@@ -478,4 +532,58 @@ GBCBasePalettes:
 	RGB 31, 31, 31
 	RGB  9,  9,  9
 	RGB 31, 21,  0
+	RGB  3,  3,  3
+
+	; PAL_BLUE_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB  0,  1, 25
+	RGB  3,  3,  3
+
+	; PAL_RED_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB 31,  0,  0
+	RGB  3,  3,  3
+
+	; PAL_CYAN_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB  0, 17, 31
+	RGB  3,  3,  3
+
+	; PAL_PURPLE_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB 19,  0, 22
+	RGB  3,  3,  3
+
+	; PAL_BROWN_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB 17,  9,  5
+	RGB  3,  3,  3
+
+	; PAL_GREEN_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB  1, 22,  6
+	RGB  3,  3,  3
+
+	; PAL_PINK_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB 31,  0,  6
+	RGB  3,  3,  3
+
+	; PAL_YELLOW_TRAINER
+	RGB 31, 31, 31
+	RGB 31, 20, 15
+	RGB 28, 14,  0
+	RGB  3,  3,  3
+
+	; PAL_CHARIZARD
+	RGB 31, 31, 31
+	RGB 25,  8,  5
+	RGB  9, 14, 31
 	RGB  3,  3,  3

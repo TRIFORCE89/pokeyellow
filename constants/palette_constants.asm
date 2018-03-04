@@ -57,3 +57,12 @@ const_value = 0
 	const PAL_25        ; $25
 	const PAL_26        ; $26
 	const PAL_27        ; $27
+	const PAL_BLUE_TRAINER   ; $28
+	const PAL_RED_TRAINER    ; $29
+	const PAL_CYAN_TRAINER   ; $2A
+	const PAL_PURPLE_TRAINER ; $2B
+	const PAL_BROWN_TRAINER  ; $2C
+	const PAL_GREEN_TRAINER  ; $2D
+	const PAL_PINK_TRAINER   ; $2E
+	const PAL_YELLOW_TRAINER ; $2F
+	const PAL_CHARIZARD ; $30
