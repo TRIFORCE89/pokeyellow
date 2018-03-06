@@ -45,7 +45,7 @@ _StandByMeText::
 	line "on TV."
 
 	para "Four boys are"
-	cont "walking on"
+	line "walking on"
 	cont "railroad tracks."
 
 	para "I better go too."

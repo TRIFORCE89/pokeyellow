@@ -8,7 +8,7 @@ _SaffronGymText_5d162::
 
 	para "It started when"
 	line "I first learned"
-	line "to bend spoons"
+	cont "to bend spoons"
 	cont "with my mind."
 
 	para "I dislike battl-"

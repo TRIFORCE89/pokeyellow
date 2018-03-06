@@ -152,7 +152,7 @@ _VermilionCityText12::
 	text "#MON FAN CLUB"
 
 	para "All #MON fans"
-	cont "welcome!"
+	line "welcome!"
 	done
 
 _VermilionCityText13::

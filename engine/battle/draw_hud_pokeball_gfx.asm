@@ -152,7 +152,6 @@ EnemyBattleHUDGraphicsTiles:
 
 PlaceHUDTiles:
 	ld [hl], $73
-HealthBarUpdateDone:
 	ld bc, SCREEN_WIDTH
 	add hl, bc
 	ld a, [wHUDGraphicsTiles + 1] ; leftmost tile

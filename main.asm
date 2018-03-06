@@ -866,7 +866,7 @@ EnemyHealthBarUpdated:
 	pop hl
 .noBattle
 	ld de, $0001
-	jp HealthBarUpdateDone
+	jp PlaceHUDTiles
 
 
 SECTION "bank0F", ROMX

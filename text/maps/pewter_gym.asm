@@ -98,7 +98,7 @@ _PewterGymText_5c4c1::
 	para "Just having the"
 	line "BOULDERBADGE"
 	cont "makes its bearer's"
-	line "#MON become"
+	cont "#MON become"
 	cont "more powerful!"
 
 	para "It also enables"
