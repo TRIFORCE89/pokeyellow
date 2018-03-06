@@ -840,6 +840,34 @@ TradingAnimationGraphics2End:
 
 INCLUDE "engine/evos_moves.asm"
 
+EnemyHealthBarUpdated:
+	ld [hl], $72
+	ld a, [wIsInBattle]
+	dec a
+	jr  nz, .noBattle
+	push hl
+	ld a, [wEnemyMonSpecies2]
+	ld [wd11e], a
+	ld hl, IndexToPokedex
+	ld b, BANK(IndexToPokedex)
+	call Bankswitch
+	ld a, [wd11e]
+	dec a
+	ld c, a
+	ld b, $2
+	ld hl, wPokedexOwned
+	predef FlagActionPredef
+	ld a, c
+	and a
+	jr z, .notOwned
+	coord hl, 1, 1
+	ld [hl], $E9
+.notOwned
+	pop hl
+.noBattle
+	ld de, $0001
+	jp HealthBarUpdateDone
+
 
 SECTION "bank0F", ROMX
 
