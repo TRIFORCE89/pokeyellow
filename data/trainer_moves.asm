@@ -38,7 +38,7 @@ SpecialTrainerMoves:
 	db KOGA,$1
 	db 1,1,TOXIC
 	db 1,2,DOUBLE_EDGE
-	db 2,1,TOXIC	;SCYTHER
+	db 2,1,TOXIC	; SCYTHER
 	db 5,1,LEECH_LIFE
 	db 5,2,DOUBLE_TEAM
 	db 5,3,PSYCHIC_M
