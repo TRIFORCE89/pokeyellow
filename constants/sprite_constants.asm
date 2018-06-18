@@ -107,6 +107,7 @@ const_value = 1
 	const SPRITE_KOGA                      ; $56
 	const SPRITE_SABRINA                   ; $57
 	const SPRITE_BLAINE                    ; $58
+	const SPRITE_BILL											 ; $59
 
 
 ; different kinds of people events

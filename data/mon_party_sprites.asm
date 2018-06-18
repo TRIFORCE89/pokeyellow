@@ -16,7 +16,7 @@ MonPartyData:
 	dn SPRITE_WATER, SPRITE_WATER                      ;Squirtle/Wartortle
 	dn SPRITE_WATER, SPRITE_BUG                        ;Blastoise/Caterpie
 	dn SPRITE_BUG, SPRITE_BUG                          ;Metapod/Butterfree
-	dn SPRITE_BUG, SPRITE_BUG                           ;Weedle/Kakuna
+	dn SPRITE_BUG, SPRITE_BUG                          ;Weedle/Kakuna
 	dn SPRITE_BUG, SPRITE_BIRD_M                       ;Beedrill/Pidgey
 	dn SPRITE_BIRD_M, SPRITE_BIRD_M                    ;Pidgeotto/Pidgeot
 	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED              ;Rattata/Raticate
