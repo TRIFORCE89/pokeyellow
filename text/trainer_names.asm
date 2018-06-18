@@ -18,7 +18,7 @@ TrainerNames:
 	db "GAMBLER@"
 	db "BEAUTY@"
 	db "PSYCHIC@"
-	db "ELECTRICIAN@"
+	db "ROCKER@"
 	db "JUGGLER@"
 	db "TAMER@"
 	db "BIRD KEEPER@"
