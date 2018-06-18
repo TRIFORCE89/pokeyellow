@@ -54,7 +54,8 @@ _SilphCoJessieJamesText2::
 	done
 
 _SilphCoJessieJamesText3::
-	text "Like always..."
+	text "JAMES: Like"
+	line "always..."
 	prompt
 
 _SilphCoJessieJamesText4::

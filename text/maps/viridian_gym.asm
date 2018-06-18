@@ -24,7 +24,7 @@ _ViridianGymText_74ace::
 	done
 
 _ViridianGymText_74ad3::
-	text "Ha!"
+	text "GIOVANNI: Ha!"
 	line "That was a truly"
 	cont "intense fight!"
 	cont "You have won!"

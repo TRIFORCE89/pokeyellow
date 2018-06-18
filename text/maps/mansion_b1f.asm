@@ -36,4 +36,6 @@ _Mansion4Text7::
 	para "We have failed to"
 	line "curb its vicious"
 	cont "tendencies..."
+
+	para "It's no use..."
 	done

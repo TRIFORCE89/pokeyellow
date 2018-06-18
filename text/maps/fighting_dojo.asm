@@ -13,7 +13,7 @@ _FightingDojoText_5ce8e::
 	done
 
 _FightingDojoText_5ce93::
-	text "Hwa!"
+	text "KIYO: Hwa!"
 	line "Arrgh! Beaten!"
 	prompt
 

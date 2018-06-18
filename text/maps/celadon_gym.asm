@@ -26,7 +26,7 @@ _CeladonGymText_48a5e::
 	done
 
 _CeladonGymText_48a63::
-	text "Oh!"
+	text "ERIKA: Oh!"
 	line "I concede defeat."
 
 	para "You are remarkably"

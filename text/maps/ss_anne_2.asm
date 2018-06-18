@@ -32,7 +32,7 @@ _SSAnneRivalBeforeBattleText::
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Humph!"
+	text $53, ": Humph!"
 
 	para "At least you're"
 	line "raising your"

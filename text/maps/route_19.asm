@@ -4,8 +4,7 @@ _Route19BattleText1::
 	done
 
 _Route19EndBattleText1::
-	text "All"
-	line "warmed up!"
+	text "All warmed up!"
 	prompt
 
 _Route19AfterBattleText1::

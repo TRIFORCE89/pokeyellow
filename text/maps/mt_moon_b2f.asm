@@ -8,7 +8,7 @@ _MtMoonJessieJamesText2::
 	cont "ROCKET's!"
 
 	para "JAMES: Surrender"
-	line "now, or  prepare"
+	line "now, or prepare"
 	cont "to fight!"
 
 	para "MEOWTH: Meowth!"
@@ -16,7 +16,7 @@ _MtMoonJessieJamesText2::
 	done
 
 _MtMoonJessieJamesText3::
-	text "A"
+	text "JESSIE: A"
 	line "brat beat us?"
 	prompt
 

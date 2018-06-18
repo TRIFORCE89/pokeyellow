@@ -53,8 +53,7 @@ _Route25BattleText4::
 	done
 
 _Route25EndBattleText4::
-	text "I'm in"
-	line "a slump!"
+	text "I'm in a slump!"
 	prompt
 
 _Route25AfterBattleText4::

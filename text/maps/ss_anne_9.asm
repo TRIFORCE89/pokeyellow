@@ -61,8 +61,7 @@ _SSAnne9BattleText3::
 	done
 
 _SSAnne9EndBattleText3::
-	text "I must"
-	line "salute you!"
+	text "I must salute you!"
 	prompt
 
 _SSAnne9AfterBattleText3::

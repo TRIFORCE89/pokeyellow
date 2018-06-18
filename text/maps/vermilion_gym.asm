@@ -67,7 +67,7 @@ _TM24NoRoomText::
 	done
 
 _ReceivedThunderbadgeText::
-	text "Whoa!"
+	text "LT. SURGE: Whoa!"
 	line "Now that's a"
 	cont "shocker!"
 

@@ -39,8 +39,7 @@ _Route12BattleText2::
 	done
 
 _Route12EndBattleText2::
-	text "That"
-	line "one got away!"
+	text "That one got away!"
 	prompt
 
 _Route12AfterBattleText2::

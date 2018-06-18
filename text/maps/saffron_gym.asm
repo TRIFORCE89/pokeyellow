@@ -18,7 +18,7 @@ _SaffronGymText_5d162::
 	done
 
 _SaffronGymText_5d167::
-	text "I'm"
+	text "SABRINA: I'm"
 	line "shocked!"
 	cont "But, a loss is a"
 	cont "loss."
