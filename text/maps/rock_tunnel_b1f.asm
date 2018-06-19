@@ -39,7 +39,7 @@ _RockTunnel1BattleText3::
 	done
 
 _RockTunnel1EndBattleText3::
-	text "I give up!"
+	text "I give!"
 	prompt
 
 _RockTunnel1AfterBattleText3::
@@ -82,8 +82,7 @@ _RockTunnel1BattleText6::
 	done
 
 _RockTunnel1EndBattleText6::
-	text "I'm"
-	line "out of #MON!"
+	text "I'm out of #MON!"
 	prompt
 
 _RockTunnel1AfterBattleText6::

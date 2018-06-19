@@ -4,8 +4,8 @@ _Route13BattleText2::
 	done
 
 _Route13EndBattleText2::
-	text "My bird combo"
-	line "lost?"
+	text "My"
+	line "bird combo lost?"
 	prompt
 
 _Route13AfterBattleText2::

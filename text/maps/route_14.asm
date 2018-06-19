@@ -55,8 +55,8 @@ _Route14BattleText4::
 	done
 
 _Route14EndBattleText4::
-	text "Shot down in"
-	line "flames!"
+	text "Shot"
+	line "down in flames!"
 	prompt
 
 _Route14AfterBattleText4::

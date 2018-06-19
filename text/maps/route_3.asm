@@ -31,8 +31,7 @@ _Route3BattleText2::
 	done
 
 _Route3EndBattleText2::
-	text "I don't"
-	line "believe it!"
+	text "I don't believe it!"
 	prompt
 
 _Route3AfterBattleText2::

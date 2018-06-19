@@ -106,8 +106,8 @@ _Route20BattleText8::
 	done
 
 _Route20EndBattleText8::
-	text "Don't touch my"
-	line "pearls!"
+	text "Don't"
+	line "touch my pearls!"
 	prompt
 
 _Route20AfterBattleText8::
@@ -122,8 +122,8 @@ _Route20BattleText9::
 	done
 
 _Route20EndBattleText9::
-	text "I'm so"
-	line "disappointed!"
+	text "I'm"
+	line "so disappointed!"
 	prompt
 
 _Route20AfterBattleText9::

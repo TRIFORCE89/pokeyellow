@@ -63,8 +63,9 @@ _TM06ExplanationText::
 	line "TOXIC!"
 
 	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	line "technique dating"
+	cont "back some four"
+	cont "hundred years!"
 	done
 
 _TM06NoRoomText::
@@ -116,8 +117,7 @@ _FuchsiaGymBattleText3::
 	done
 
 _FuchsiaGymEndBattleText3::
-	text "You"
-	line "had me fooled!"
+	text "You had me fooled!"
 	prompt
 
 _FuchsiaGymAfterBattleText3::

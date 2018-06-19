@@ -20,7 +20,6 @@ _MomWakeUpText2::
 	cont "for you."
 	done
 
-
 _MomHealText1::
 	text "MOM: <PLAYER>, if"
 	line "you drive your"

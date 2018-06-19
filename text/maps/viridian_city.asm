@@ -9,8 +9,8 @@ _ViridianCityText_1920a::
 	line "coffee now and I"
 	cont "feel great!"
 
-	para "Of course you can"
-	line "go through!"
+	para "Sure, you can go"
+	line "through!"
 
 	para "I'm sorry I was"
 	line "so rude to you!"

@@ -40,8 +40,9 @@ _SSAnneRivalDefeatedText::
 	prompt
 
 _SSAnneRivalWonText::
-	text $52, "! What are"
-	line "you, seasick?"
+	text $53, ": <PLAYER>!"
+	line "What are you,"
+	cont "seasick?"
 
 	para "You should shape"
 	line "up, pal!"

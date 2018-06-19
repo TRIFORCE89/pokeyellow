@@ -65,8 +65,8 @@ _CeruleanGymText_5c7d3::
 
 _CeruleanGymText_5c7d8::
 	text "MISTY: Wow!"
-	line "I can't believe"
-	cont "I lost!"
+	line "I can't"
+	cont "believe I lost!"
 
 	para "All right!"
 

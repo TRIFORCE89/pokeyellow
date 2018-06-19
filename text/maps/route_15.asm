@@ -122,8 +122,7 @@ _Route15BattleText8::
 	done
 
 _Route15EndBattleText8::
-	text "That"
-	line "can't be true!"
+	text "That can't be true!"
 	prompt
 
 _Route15AfterBattleText8::

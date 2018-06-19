@@ -74,8 +74,9 @@ _SilphCo6BattleText3::
 	text "That rotten"
 	line "PRESIDENT!"
 
-	para "He shouldn't have"
-	line "sent me to the"
+	para "Serves him right"
+	line "for shipping me"
+	cont "off to the"
 	cont "TIKSI BRANCH!"
 	done
 

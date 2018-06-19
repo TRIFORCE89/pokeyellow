@@ -27,9 +27,8 @@ _SSAnne9BattleText1::
 	done
 
 _SSAnne9EndBattleText1::
-	text "Good fight!"
-	line "Ah, I feel young"
-	cont "again!"
+	text "Good fight! Ah, I"
+	line "feel young again!"
 	prompt
 
 _SSAnne9AfterBattleText1::

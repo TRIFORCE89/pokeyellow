@@ -80,7 +80,7 @@ _TM34NoRoomText::
 
 _PewterGymText_5c4bc::
 	text "BROCK: I took"
-	line "you granted,"
+	line "you for granted,"
 	cont "and so I lost."
 
 	para "As proof of your"

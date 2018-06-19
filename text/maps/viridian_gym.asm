@@ -41,7 +41,7 @@ _ViridianGymText_74ad9::
 	cont "finished forever!"
 
 	para "As for myself,"
-	line "I shall dedicate my"
+	line "I will dedicate my"
 	cont "life to training"
 	cont "again."
 

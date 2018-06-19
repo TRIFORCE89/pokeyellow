@@ -124,8 +124,7 @@ _CinnabarGymText_759fe::
 	done
 
 _CinnabarGymText_75a03::
-	text "Too hot"
-	line "to handle!"
+	text "Too hot to handle!"
 	prompt
 
 _CinnabarGymText_75a08::

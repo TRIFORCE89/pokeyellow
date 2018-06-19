@@ -98,8 +98,7 @@ _Route8BattleText7::
 	done
 
 _Route8EndBattleText7::
-	text "Look what"
-	line "you did!"
+	text "Look what you did!"
 	prompt
 
 _Route8AfterBattleText7::

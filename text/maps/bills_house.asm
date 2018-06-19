@@ -70,8 +70,8 @@ _BillThankYouText::
 
 _BillThankYouText2::
 	text "BILL: Yeehah!"
-	line "Thanks, lady! I"
-	cont "owe you one!"
+	line "Thanks, lady!"
+	cont "I owe you one!"
 
 	para "So, did you come"
 	line "to see my #MON"

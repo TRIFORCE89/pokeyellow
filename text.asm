@@ -216,8 +216,9 @@ INCLUDE "text/maps/seafoam_islands_b4f.asm"
 
 _AIBattleWithdrawText::
 	TX_RAM wTrainerName
-	text " with-"
-	line "drew @"
+	text ""
+	line "withdrew"
+	cont "@"
 	TX_RAM wEnemyMonNick
 	text "!"
 	prompt
@@ -1404,20 +1405,20 @@ _LoafingAroundText::
 
 _BeganToNapText::
 	TX_RAM wBattleMonNick
-	text " began"
-	line "to nap!"
+	text ""
+	line "began to nap!"
 	prompt
 
 _WontObeyText::
 	TX_RAM wBattleMonNick
-	text " won't"
-	line "obey!"
+	text ""
+	line "wont' obey!"
 	prompt
 
 _TurnedAwayText::
 	TX_RAM wBattleMonNick
-	text " turned"
-	line "away!"
+	text ""
+	line "turned away!"
 	prompt
 
 _IgnoredOrdersText::
@@ -1528,8 +1529,8 @@ _EnemyAppearedText::
 
 _TrainerWantsToFightText::
 	TX_RAM wTrainerName
-	text " wants"
-	line "to fight!"
+	text ""
+	line "wants to fight!"
 	prompt
 
 _UnveiledGhostText::
@@ -1654,8 +1655,8 @@ _BurnHealText::
 
 _IceHealText::
 	TX_RAM wcd6d
-	text " was"
-	line "defrosted!"
+	text ""
+	line "was defrosted!"
 	done
 
 _AwakeningText::
@@ -2955,7 +2956,7 @@ _ItemUseBallText02::
 
 _ItemUseBallText03::
 	text "Aww! It appeared"
-	line "to be caught! "
+	line "to be caught!"
 	prompt
 
 _ItemUseBallText04::
@@ -2967,8 +2968,8 @@ _ItemUseBallText05::
 	text "All right!"
 	line "@"
 	TX_RAM wEnemyMonNick
-	text " was"
-	cont "caught!@@"
+	text ""
+	line "was caught!@@"
 
 _ItemUseBallText07::
 	TX_RAM wBoxMonNicks

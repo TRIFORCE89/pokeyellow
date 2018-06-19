@@ -64,7 +64,8 @@ _FightingDojoBattleText2::
 	done
 
 _FightingDojoEndBattleText2::
-	text "Judge! 1 point!"
+	text "Judge!"
+	line "1 point!"
 	prompt
 
 _FightingDojoAfterBattleText2::
