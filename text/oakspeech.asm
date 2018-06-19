@@ -55,6 +55,6 @@ _OakSpeechText3::
 	done
 
 _BoyGirlText::
-	text "Are you a boy? Or"
-	line "are you a girl?"
+	text "Are you a boy?"
+	line "Or are you a girl?"
 	done

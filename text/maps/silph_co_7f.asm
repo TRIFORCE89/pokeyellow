@@ -164,7 +164,7 @@ _SilphCo7Text_51ec3::
 	done
 
 _SilphCo7Text_51ec8::
-	text "Oh-oh!"
+	text $53, ": Oh-oh!"
 	line "So, you are ready"
 	cont "for BOSS ROCKET!"
 	prompt

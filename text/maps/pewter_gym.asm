@@ -79,9 +79,9 @@ _TM34NoRoomText::
 	done
 
 _PewterGymText_5c4bc::
-	text "I took you for"
-	line "granted, and so"
-	cont "I lost."
+	text "BROCK: I took"
+	line "you for granted,"
+	cont "and so I lost."
 
 	para "As proof of your"
 	line "victory, I hereby"

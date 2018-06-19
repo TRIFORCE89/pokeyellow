@@ -19,7 +19,7 @@ _Route16BattleText2::
 	done
 
 _Route16EndBattleText2::
-	text "Knock-out!"
+	text "Knockout!"
 	prompt
 
 _Route16AfterBattleText2::

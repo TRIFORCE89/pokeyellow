@@ -1,5 +1,5 @@
 _Route22RivalDefeatedText1::
-	text "Awww!"
+	text $53, ": Awww!"
 	line "You just lucked"
 	cont "out!"
 	prompt
@@ -10,11 +10,11 @@ _Route22Text_511bc::
 	cont "#MON?"
 
 	para "You should catch"
-	cont "some more too!"
+	line "some more too!"
 	prompt
 
 _Route22RivalDefeatedText2::
-	text "What!?"
+	text $53, ": What!?"
 
 	para "I was just"
 	line "careless!"

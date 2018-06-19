@@ -30,8 +30,7 @@ _SilphCo10BattleText2::
 	done
 
 _SilphCo10EndBattleText2::
-	text "No"
-	line "continues left!"
+	text "No continues left!"
 	prompt
 
 _SilphCo10AfterBattleText2::
@@ -54,7 +53,8 @@ _SilphCoJessieJamesText2::
 	done
 
 _SilphCoJessieJamesText3::
-	text "Like always..."
+	text "JAMES: Like"
+	line "always..."
 	prompt
 
 _SilphCoJessieJamesText4::

@@ -32,7 +32,7 @@ _SSAnneRivalBeforeBattleText::
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Humph!"
+	text $53, ": Humph!"
 
 	para "At least you're"
 	line "raising your"
@@ -40,8 +40,9 @@ _SSAnneRivalDefeatedText::
 	prompt
 
 _SSAnneRivalWonText::
-	text $52, "! What are"
-	line "you, seasick?"
+	text $53, ": <PLAYER>!"
+	line "What are you,"
+	cont "seasick?"
 
 	para "You should shape"
 	line "up, pal!"

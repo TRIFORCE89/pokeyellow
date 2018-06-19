@@ -20,7 +20,8 @@ _Route9BattleTextAJ::
 	done
 
 _Route9EndBattleTextAJ::
-	text "My SANDSHREW lost?"
+	text "AJ: My"
+	line "SANDSHREW lost?"
 	prompt
 
 _Route9AfterBattleTextAJ::

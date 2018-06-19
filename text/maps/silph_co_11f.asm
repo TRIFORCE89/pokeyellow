@@ -75,7 +75,7 @@ _SilphCo11Text3::
 	done
 
 _SilphCo10Text_62330::
-	text "Arrgh!!"
+	text "GIOVANNI: Arrgh!!"
 	line "I lost again!?"
 	prompt
 

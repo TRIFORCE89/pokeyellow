@@ -26,7 +26,7 @@ _CeladonGymText_48a5e::
 	done
 
 _CeladonGymText_48a63::
-	text "Oh!"
+	text "ERIKA: Oh!"
 	line "I concede defeat."
 
 	para "You are remarkably"
@@ -167,7 +167,8 @@ _CeladonGymBattleText6::
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh! You!"
+	text "Oh!"
+	line "You!"
 	prompt
 
 _CeladonGymAfterBattleText6::
@@ -184,7 +185,8 @@ _CeladonGymBattleText7::
 	done
 
 _CeladonGymEndBattleText7::
-	text "Oh! Splendid!"
+	text "Oh!"
+	line "Splendid!"
 	prompt
 
 _CeladonGymAfterBattleText7::
@@ -204,7 +206,8 @@ _CeladonGymBattleText8::
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh! Beaten!"
+	text "Oh!"
+	line "Beaten!"
 	prompt
 
 _CeladonGymAfterBattleText8::

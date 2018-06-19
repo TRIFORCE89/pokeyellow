@@ -13,7 +13,7 @@ _RocketHideoutJessieJamesText2::
 	done
 
 _RocketHideoutJessieJamesText3::
-	text "Such"
+	text "MEOWTH: Such"
 	line "a dreadful twerp!"
 	prompt
 
@@ -45,7 +45,7 @@ _RocketHideout4Text_4557a::
 	done
 
 _RocketHideout4Text_4557f::
-	text "WHAT!"
+	text "GIOVANNI: WHAT!"
 	line "This cannot be!"
 	prompt
 

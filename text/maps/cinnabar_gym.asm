@@ -1,8 +1,8 @@
 _BlaineBattleText::
 	text "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
+	para "I am BLAINE, the"
+	line "red-hot LEADER of"
 	cont "CINNABAR GYM!"
 
 	para "My fiery #MON"
@@ -14,7 +14,8 @@ _BlaineBattleText::
 	done
 
 _BlaineEndBattleText::
-	text "I have burnt out!"
+	text "BLAINE: I have"
+	line "burnt out!"
 
 	para "You have earned"
 	line "the VOLCANOBADGE!@@"
@@ -123,8 +124,7 @@ _CinnabarGymText_759fe::
 	done
 
 _CinnabarGymText_75a03::
-	text "Too hot"
-	line "to handle!"
+	text "Too hot to handle!"
 	prompt
 
 _CinnabarGymText_75a08::

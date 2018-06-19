@@ -18,8 +18,7 @@ _Mansion4BattleText2::
 	done
 
 _Mansion4EndBattleText2::
-	text "What"
-	line "was that for?"
+	text "What was that for?"
 	prompt
 
 _Mansion4AfterBattleText2::
@@ -36,4 +35,6 @@ _Mansion4Text7::
 	para "We have failed to"
 	line "curb its vicious"
 	cont "tendencies..."
+
+	para "It's no use..."
 	done

@@ -93,7 +93,7 @@ SwimmerName:
 BeautyName:
 	db "BEAUTY@"
 RockerName:
-	db "ELECTRICIAN@"
+	db "ROCKER@"
 JugglerName:
 	db "JUGGLER@"
 BlackbeltName:

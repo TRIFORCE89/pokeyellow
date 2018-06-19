@@ -5,7 +5,7 @@ _Route6BattleText1::
 	done
 
 _Route6EndBattleText1::
-	text "No,"
+	text "JOE: No,"
 	line "this can't be..."
 	prompt
 
@@ -21,7 +21,7 @@ _Route6BattleText2::
 	done
 
 _Route6EndBattleText2::
-	text "My"
+	text "GISELLE: My"
 	line "textbook never..."
 	prompt
 

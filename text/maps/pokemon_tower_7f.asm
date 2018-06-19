@@ -19,7 +19,7 @@ _PokemonTowerJessieJamesText2::
 	done
 
 _PokemonTowerJessieJamesText3::
-	text "You"
+	text "JESSIE: You"
 	line "will regret this!"
 	prompt
 

@@ -13,7 +13,7 @@ _FightingDojoText_5ce8e::
 	done
 
 _FightingDojoText_5ce93::
-	text "Hwa!"
+	text "KIYO: Hwa!"
 	line "Arrgh! Beaten!"
 	prompt
 
@@ -64,7 +64,8 @@ _FightingDojoBattleText2::
 	done
 
 _FightingDojoEndBattleText2::
-	text "Judge! 1 point!"
+	text "Judge!"
+	line "1 point!"
 	prompt
 
 _FightingDojoAfterBattleText2::

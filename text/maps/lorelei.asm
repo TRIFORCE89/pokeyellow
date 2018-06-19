@@ -22,7 +22,8 @@ _LoreleiBeforeBattleText::
 	done
 
 _LoreleiEndBattleText::
-	text "How dare you!"
+	text "LORELEI: How"
+	line "dare you!"
 	prompt
 
 _LoreleiAfterBattleText::

@@ -13,14 +13,15 @@ _ViridianForestBattleText1::
 	done
 
 _ViridianForestEndBattleText1::
-	text "No!"
-	line "CATERPIE can't"
-	cont "hack it!"
+	text "No! CATERPIE can't"
+	cont "cut it!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
 	text "Ssh! You'll scare"
 	line "the bugs away!"
+
+	para "Another time, OK?"
 	done
 
 _ViridianForestBattleText2::
@@ -44,12 +45,12 @@ _ViridianFrstAfterBattleText2::
 _ViridianForestBattleText3::
 	text "Hey, wait up!"
 	line "What's the hurry?"
+	cont "Why the rush?"
 	done
 
 _ViridianForestEndBattleText3::
-	text "I give up!"
-	line "You're good at"
-	cont "this!"
+	text "I give! You're good"
+	cont "at this!"
 	prompt
 
 _ViridianFrstAfterBattleText3::
@@ -84,8 +85,7 @@ _ViridianForestBattleTextSamurai::
 	done
 
 _ViridianForestEndBattleTextSamurai::
-	text "After"
-	line "all I did..."
+	text "After all I did..."
 	prompt
 
 _ViridianForestAfterBattleTextSamurai::

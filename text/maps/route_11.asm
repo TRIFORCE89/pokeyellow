@@ -50,8 +50,7 @@ _Route11BattleText4::
 	done
 
 _Route11EndBattleText4::
-	text "That"
-	line "was electric!"
+	text "That was electric!"
 	prompt
 
 _Route11AfterBattleText4::
@@ -66,8 +65,7 @@ _Route11BattleText5::
 	done
 
 _Route11EndBattleText5::
-	text "My"
-	line "#MON couldn't!"
+	text "My #MON couldn't!"
 	prompt
 
 _Route11AfterBattleText5::
@@ -146,8 +144,8 @@ _Route11BattleText10::
 	done
 
 _Route11EndBattleText10::
-	text "Too"
-	line "much, too young!"
+	text "Too much,"
+	line "too young!"
 	prompt
 
 _Route11AfterBattleText10::

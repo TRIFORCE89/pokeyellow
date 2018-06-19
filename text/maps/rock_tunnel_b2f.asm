@@ -68,7 +68,7 @@ _RockTunnel2BattleText6::
 	done
 
 _RockTunnel2EndBattleText6::
-	text "I give up!"
+	text "I give!"
 	line "You're a better"
 	cont "technician!"
 	prompt
@@ -86,7 +86,8 @@ _RockTunnel2BattleText7::
 	done
 
 _RockTunnel2EndBattleText7::
-	text "Oh! I lost!"
+	text "Oh!"
+	line "I lost!"
 	prompt
 
 _RockTunnel2AfterBattleText7::
