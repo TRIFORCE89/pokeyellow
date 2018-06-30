@@ -39,7 +39,7 @@ Overall intention was to create a "definitive" Generation 1 game, playing up the
 
 - Restore the intro battle cutscene (as was seen in the anime)
 - Unique colour palettes for Trainers
-- Unique overworked sprites for: Brock, Misty, Lt. Surge, Koga, Sabrina, Blaine, and Bill
+- Unique overworld sprites for: Brock, Misty, Lt. Surge, Koga, Sabrina, Blaine, and Bill
 - Wild Pokémon locations (borrowed from: https://github.com/Fotomac/nostalgia-yellow)
 - Given that, there are now more active catch locations (Rocket Hideout, more bodies of water)
 - Bill's Pokémon costume/form is a Clefairy, as in the GBA remake

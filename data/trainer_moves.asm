@@ -19,6 +19,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY,$1
+	db 3,2,AMNESIA	; Amnesia Psyduck
 	db 5,4,BUBBLEBEAM
 	db 0
 
