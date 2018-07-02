@@ -273,7 +273,7 @@ ItemUseBall:
 	ld b,12
 
 .skip1
-	la a,b
+	ld a,b
 ; Note that the results of all division operations are floored.
 
 ; Calculate (MaxHP * 255) / BallFactor.
