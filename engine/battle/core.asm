@@ -5280,8 +5280,15 @@ AttackSubstitute:
 	jr z,.nullifyEffect
 	ld hl,wEnemyMoveEffect ; value for enemy's turn
 .nullifyEffect
+	ld a, [hl] ; some effects don't need to be removed
+	cp HYPER_BEAM_EFFECT
+	jr z, .done
+	cp EXPLODE_EFFECT
+	jr z, .done
+	; if it wasn't one of those, nullify the effect
 	xor a
 	ld [hl],a ; zero the effect of the attacker's move
+.done
 	jp DrawHUDsAndHPBars
 
 SubstituteTookDamageText:
