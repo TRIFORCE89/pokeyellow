@@ -3313,7 +3313,6 @@ ExecutePlayerMove:
 	ld [wMoveMissed], a
 	ld [wMonIsDisobedient], a
 	ld [wMoveDidntMiss], a
-	ld a, $a
 	ld [wDamageMultipliers], a
 	ld a, [wActionResultOrTookBattleTurn]
 	and a ; has the player already used the turn (e.g. by using an item, trying to run or switching pokemon)
@@ -4102,7 +4101,7 @@ PrintMoveFailureText:
 .playersTurn
 	ld hl, DoesntAffectMonText
 	ld a, [wDamageMultipliers]
-	and $7f
+	cp $7f
 	jr z, .gotTextToPrint
 	ld hl, AttackMissedText
 	ld a, [wCriticalHitOrOHKO]
@@ -5490,22 +5489,17 @@ AdjustDamageForMoveType:
 	jr .skipSameTypeAttackBonus
 .sameTypeAttackBonus
 ; if the move type matches one of the attacker's types
-	ld hl,wDamage + 1
-	ld a,[hld]
-	ld h,[hl]
-	ld l,a    ; hl = damage
-	ld b,h
-	ld c,l    ; bc = damage
-	srl b
-	rr c      ; bc = floor(0.5 * damage)
-	add hl,bc ; hl = floor(1.5 * damage)
-; store damage
-	ld a,h
-	ld [wDamage],a
-	ld a,l
-	ld [wDamage + 1],a
+; multiply by 3/2
+	ld hl, H_MULTIPLIER
+	ld [hl], 3
+	call Multiply
+
+	ld [hl], 2
+	ld b, 4
+	call Divide
+
 	ld hl,wDamageMultipliers
-	set 7,[hl]
+	set 7,[hl]	; STAB
 .skipSameTypeAttackBonus
 	ld a,[wMoveType]
 	ld b,a
@@ -5527,38 +5521,30 @@ AdjustDamageForMoveType:
 	push hl
 	push bc
 	inc hl
-	ld a,[wDamageMultipliers]
-	and a,$80
-	ld b,a
 	ld a,[hl] ; a = damage multiplier
 	ld [H_MULTIPLIER],a
-	add b
-	ld [wDamageMultipliers],a
-	xor a
-	ld [H_MULTIPLICAND],a
-	ld hl,wDamage
-	ld a,[hli]
-	ld [H_MULTIPLICAND + 1],a
-	ld a,[hld]
-	ld [H_MULTIPLICAND + 2],a
+
+; done if type immunity
+	and a
+	jr z, .typeImmunityDone
+
+; update damage multipliers
+	cp $a
+	ld hl, wDamageMultipliers
+	jr c, .nve
+	set 1, [hl]
+	jr .multiply
+.nve
+	set 0, [hl]
+; apply damage multiplier
+.multiply
 	call Multiply
+; divide by 10
 	ld a,10
-	ld [H_DIVISOR],a
+	ld [H_DIVISOR], a
 	ld b,$04
 	call Divide
-	ld a,[H_QUOTIENT + 2]
-	ld [hli],a
-	ld b,a
-	ld a,[H_QUOTIENT + 3]
-	ld [hl],a
-	or b ; is damage 0?
-	jr nz,.skipTypeImmunity
-.typeImmunity
-; if damage is 0, make the move miss
-; this only occurs if a move that would do 2 or 3 damage is 0.25x effective against the target
-	inc a
-	ld [wMoveMissed],a
-.skipTypeImmunity
+
 	pop bc
 	pop hl
 .nextTypePair
@@ -5566,6 +5552,15 @@ AdjustDamageForMoveType:
 	inc hl
 	jp .loop
 .done
+	ret
+
+.typeImmunityDone
+	ld a, $7f
+	ld [wDamageMultipliers], a
+	inc a
+	ld [wMoveMissed], a
+	pop bc
+	pop hl
 	ret
 
 AIGetTypeEffectiveness:
@@ -5865,7 +5860,6 @@ ExecuteEnemyMove:
 	xor a
 	ld [wMoveMissed], a
 	ld [wMoveDidntMiss], a
-	ld a, $a
 	ld [wDamageMultipliers], a
 	call CheckEnemyStatusConditions
 	jr nz, .enemyHasNoSpecialConditions
