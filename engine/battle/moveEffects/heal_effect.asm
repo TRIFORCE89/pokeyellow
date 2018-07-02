@@ -42,7 +42,8 @@ HealEffect_:
 	res 0, [hl]
 	ld a, [bc]
 	and a
-	ld [bc], 2 ; clear status and set number of turns asleep to 2
+	ld a, 2
+	ld [bc], a ; clear status and set number of turns asleep to 2
 	ld hl, StartedSleepingEffect ; if mon didn't have an status
 	jr z, .printRestText
 	ld hl, FellAsleepBecameHealthyText ; if mon had an status
@@ -84,7 +85,7 @@ HealEffect_:
 	ld a, [de]
 	sbc [hl]
 	jr c, .playAnim
-; copy max HP to current HP if an overflow ocurred
+; copy max HP to current HP if an overflow occurred
 	ld a, [hli]
 	ld [de], a
 	ld [wHPBarNewHP+1], a
